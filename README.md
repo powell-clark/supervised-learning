@@ -88,4 +88,4 @@ GitHub: https://github.com/powell-clark/supervised-machine-learning
 ```
 
 ### Contact
-Questions or feedback? Contact [redacted-ident]
+Questions or feedback? Contact emmanuel@powellclark.com
