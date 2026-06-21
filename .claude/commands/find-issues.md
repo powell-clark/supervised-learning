@@ -25,7 +25,7 @@ Notes (tell your agents this too):
 - Use `gh` and read-only `git` only. No file edits, no other MCP servers, no web fetch.
 - Make a todo list first.
 - Always scope searches with `repo:owner/repo`.
-- Comment format (verbatim, example assumes 3 found). The fenced block lets the author copy-paste to auto-close on merge:
+- Comment format (verbatim, example assumes 3 found):
 
 ---
 
@@ -37,11 +37,9 @@ Found 3 issues this PR may fix:
 
 > If this is helpful, copy the block below into the PR description to auto-close these issues on merge.
 
-```
 Fixes #<number>
 Fixes #<number>
 Fixes #<number>
-```
 
 🤖 find-issues
 
