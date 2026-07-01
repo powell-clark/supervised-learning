@@ -91,4 +91,22 @@ runs/
 .Spotlight-V100
 .Trashes
 ehthumbs.db
-Thumbs.db.claude/settings.local.json
+Thumbs.db
+
+# Claude Code session and plugin artifacts
+.claude/memory/
+.claude/consciousness-loop.*.md
+.claude/framing-*.txt
+.claude/turn-start-ts.*.txt
+.claude/universe-*.txt
+.claude/universe-snapshot.json
+.claude/settings.local.json
+
+# Consciousness session runtime files
+CONSCIOUSNESS/.TODO.lock
+CONSCIOUSNESS/AGENT-TIME-LOG.md
+CONSCIOUSNESS/HUMAN-TIME-LOG.md
+CONSCIOUSNESS/TODO.md
+CONSCIOUSNESS/TODO.version
+CONSCIOUSNESS/autonomous-state.*.json
+CONSCIOUSNESS/active-sessions.json
