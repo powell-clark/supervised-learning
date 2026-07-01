@@ -1,5 +1,7 @@
 id|priority|title|story_ids|directive_id|feature_ids|doc|blocked_by|blocks|assignee|parent_task_id|sequence|expected_duration|story_points
 TASK-SL1|p2|Lesson 4a: SVM theory — maximum margin, Lagrangian dual, kernel trick|STORY-SL4|DIRECT-SL1||backlog-task-item-details/TASK-SL1.md|||1||45h|9
+TASK-SL2|p2|Lesson 4b: SVM practical — kernel comparison and hyperparameter tuning|STORY-SL4|DIRECT-SL1||backlog-task-item-details/TASK-SL2.md|TASK-SL1||1||45h|9
+TASK-SL3|p2|Lesson 5a: KNN theory — distance metrics, KD-tree mathematics, curse of dimensionality|STORY-SL5|DIRECT-SL1||backlog-task-item-details/TASK-SL3.md|TASK-SL2||2||45h|9
 TASK-SL4|p2|Lesson 5b: KNN practical — optimal K selection, weighted voting, KD-tree implementation|STORY-SL5|DIRECT-SL1||backlog-task-item-details/TASK-SL4.md|TASK-SL3||2||45h|9
 TASK-SL5|p2|Lesson 6a: Naive Bayes theory — Bayes theorem, conditional independence, Gaussian/Multinomial/Bernoulli variants|STORY-SL6|DIRECT-SL1||backlog-task-item-details/TASK-SL5.md|TASK-SL4||3||45h|9
 TASK-SL6|p2|Lesson 6b: Naive Bayes practical — text classification, TF-IDF, Laplace smoothing|STORY-SL6|DIRECT-SL1||backlog-task-item-details/TASK-SL6.md|TASK-SL5||3||45h|9
