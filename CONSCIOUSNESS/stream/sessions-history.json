@@ -65,7 +65,19 @@
       "metrics": {
         "autonomous_loops": 1,
         "tasks_completed": [],
-        "commits": 1
+        "commits": 3,
+        "turns": 0,
+        "human_prompts": 0,
+        "errors": 0,
+        "compactions": 0,
+        "hooks_latency_ms": {},
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "ralph_loops": null,
+        "framing_checks_count": 0,
+        "framing_compliance_count": 0
       }
     }
   ]
