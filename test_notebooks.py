@@ -70,7 +70,7 @@ def validate_notebook(notebook_path):
 
 def main():
     """Validate all notebooks in the repository."""
-    notebooks_dir = Path('/home/user/supervised-machine-learning/notebooks')
+    notebooks_dir = Path('/home/powell-clark/projects/aux/supervised-learning/notebooks')
     notebooks = sorted(notebooks_dir.glob('*.ipynb'))
 
     print("=" * 70)
@@ -86,17 +86,17 @@ def main():
         validated += 1
 
         if errors or warnings:
-            print(f"\n📓 {notebook_path.name}")
+            print(f"\n{notebook_path.name}")
             if errors:
                 total_errors += len(errors)
                 for error in errors:
-                    print(f"  ❌ ERROR: {error}")
+                    print(f"  ERROR: {error}")
             if warnings:
                 total_warnings += len(warnings)
                 for warning in warnings:
-                    print(f"  ⚠️  WARNING: {warning}")
+                    print(f"  WARNING: {warning}")
         else:
-            print(f"✓ {notebook_path.name}")
+            print(f"PASS {notebook_path.name}")
 
     print("\n" + "=" * 70)
     print(f"SUMMARY")
@@ -106,10 +106,10 @@ def main():
     print(f"Total warnings: {total_warnings}")
 
     if total_errors == 0:
-        print("\n🎉 ALL NOTEBOOKS PASSED VALIDATION! 🎉")
+        print("\nAll notebooks passed validation.")
         return 0
     else:
-        print(f"\n⚠️  {total_errors} errors found")
+        print(f"\n{total_errors} errors found")
         return 1
 
 if __name__ == '__main__':
