@@ -63,21 +63,9 @@
       "started": "2026-07-01 12:15:10.191 bst",
       "ended": null,
       "metrics": {
-        "autonomous_loops": 1,
+        "autonomous_loops": 2,
         "tasks_completed": [],
-        "commits": 3,
-        "turns": 0,
-        "human_prompts": 0,
-        "errors": 0,
-        "compactions": 0,
-        "hooks_latency_ms": {},
-        "usage": {
-          "input_tokens": 0,
-          "output_tokens": 0
-        },
-        "ralph_loops": null,
-        "framing_checks_count": 0,
-        "framing_compliance_count": 0
+        "commits": 4
       }
     }
   ]
