@@ -55,3 +55,4 @@
 {"timestamp":"2026-07-01 12:14:53.855 bst","session_id":"sl-main-835d9f0b","hook_name":"message-end","latency_ms":19}
 {"timestamp":"2026-07-01 12:15:03.185 bst","session_id":"sl-main-835d9f0b","hook_name":"message-end","latency_ms":19}
 {"timestamp":"2026-07-01 12:15:10.226 bst","session_id":"sl-main-bb0abb96","hook_name":"session-init","latency_ms":56}
+{"timestamp":"2026-07-01 12:23:45.080 bst","session_id":"sl-main-bb0abb96","hook_name":"message-end","latency_ms":18}
