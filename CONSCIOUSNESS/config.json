@@ -1,0 +1,21 @@
+{
+  "project_code": "SL",
+  "project_name": "supervised-learning",
+  "mode": "full",
+  "id_format": {
+    "pattern": "^{TYPE}-SL\\d{1,5}$"
+  },
+  "sync": {
+    "enabled": true,
+    "endpoint": "https://ap.consciousness.london/api/sync",
+    "auth_method": "bearer",
+    "data_types": [
+      "session",
+      "commentary",
+      "steering",
+      "pgps_snapshot",
+      "roadmap"
+    ],
+    "batch_size": 50
+  }
+}

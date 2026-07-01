@@ -1,0 +1,24 @@
+{
+  "sessions": {
+    "sl-main-bb0abb96": {
+      "assignment_message_id": null,
+      "canonical_id": "bb0abb96-ee45-4d76-a14f-f197d54c7da5",
+      "conscious_mode": true,
+      "context": {
+        "adapter": "claude-code",
+        "pane": "4",
+        "project": "sl"
+      },
+      "current_activity": null,
+      "current_task": "TASK-SL3",
+      "identity": null,
+      "last_activity": "2026-07-01T11:20:18.194Z",
+      "model": "haiku",
+      "pane_id": "4",
+      "role": "bodhisattva",
+      "session_type": "cli",
+      "specialty": null,
+      "started": "2026-07-01T11:15:10.210Z"
+    }
+  }
+}

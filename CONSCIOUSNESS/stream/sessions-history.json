@@ -1,0 +1,86 @@
+{
+  "sessions": [
+    {
+      "id": "sl-main-42a3f464",
+      "prev": null,
+      "started": "2026-07-01 11:35:34.544 bst",
+      "ended": "2026-07-01 11:44:27.537 bst",
+      "metrics": {
+        "autonomous_loops": 6,
+        "tasks_completed": [],
+        "commits": 5,
+        "turns": 1,
+        "human_prompts": 1,
+        "errors": 0,
+        "compactions": 0,
+        "framing_checks_count": 1,
+        "framing_compliance_count": 0,
+        "hooks_latency_ms": {
+          "message-end": 24
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        }
+      },
+      "commit_shas": [],
+      "end_reason": "queue_empty"
+    },
+    {
+      "id": "sl-main-8387d632",
+      "prev": "sl-main-42a3f464",
+      "started": "2026-07-01 11:44:27.537 bst",
+      "ended": "2026-07-01 11:48:23.444 bst",
+      "metrics": {
+        "autonomous_loops": 1,
+        "tasks_completed": [],
+        "commits": 0
+      },
+      "commit_shas": [],
+      "end_reason": "queue_empty"
+    },
+    {
+      "id": "sl-main-835d9f0b",
+      "prev": "sl-main-8387d632",
+      "started": "2026-07-01 11:48:23.444 bst",
+      "ended": "2026-07-01 12:15:10.191 bst",
+      "metrics": {
+        "autonomous_loops": 37,
+        "tasks_completed": [],
+        "commits": 5
+      },
+      "commit_shas": [
+        "2424d2fe8d2528e1647c5077195d4c83aed04a4e",
+        "647a9085c637b39f0ada0823e9c1fb6d0313ac3a",
+        "04c7ce4c3e8fa85c1bd3ad82e701330dc0a1ec3b",
+        "f65ff55302838521a01bba3053f88b273adc8710"
+      ],
+      "end_reason": "queue_empty"
+    },
+    {
+      "id": "sl-main-bb0abb96",
+      "prev": "sl-main-835d9f0b",
+      "started": "2026-07-01 12:15:10.191 bst",
+      "ended": null,
+      "metrics": {
+        "autonomous_loops": 0,
+        "tasks_completed": [],
+        "commits": 0,
+        "turns": 0,
+        "human_prompts": 1,
+        "errors": 0,
+        "compactions": 0,
+        "hooks_latency_ms": {
+          "session-init": 56
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "ralph_loops": null,
+        "framing_checks_count": 0,
+        "framing_compliance_count": 0
+      }
+    }
+  ]
+}
