@@ -70,7 +70,7 @@ def validate_notebook(notebook_path):
 
 def main():
     """Validate all notebooks in the repository."""
-    notebooks_dir = Path('/home/user/projects/aux/supervised-learning/notebooks')
+    notebooks_dir = Path('/home/user/projects/auxiliary/supervised-learning/notebooks')
     notebooks = sorted(notebooks_dir.glob('*.ipynb'))
 
     print("=" * 70)
