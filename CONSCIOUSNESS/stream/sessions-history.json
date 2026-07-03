@@ -61,13 +61,217 @@
       "id": "sl-main-bb0abb96",
       "prev": "sl-main-835d9f0b",
       "started": "2026-07-01 12:15:10.191 bst",
-      "ended": null,
+      "ended": "2026-07-03 01:04:26.943 bst",
       "metrics": {
-        "autonomous_loops": 11,
+        "autonomous_loops": 15,
         "tasks_completed": [
           "TASK-SL3"
         ],
-        "commits": 7
+        "commits": 7,
+        "turns": 5,
+        "human_prompts": 0,
+        "errors": 0,
+        "compactions": 0,
+        "framing_checks_count": 4,
+        "framing_compliance_count": 0,
+        "hooks_latency_ms": {
+          "message-end": 25
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        }
+      },
+      "commit_shas": [
+        "002b86dc74e6a0374b4e99955ff198fc4fa96ce1",
+        "17fe75955002c17d629c5dec5059decc20fab3f2",
+        "a5da455f4a036b02487da5aa1631d2b9a1988192",
+        "d68535f054790af5b364f88becd5688bb703aed4",
+        "8bb1e02ba5230628ffb862536c3193ce02541ae8",
+        "b45aa45a13c38ec3165422be59e3765712c81909",
+        "28aa40ee6b4593b91c1c172fe4e71576f517548c",
+        "6f63dbb9ecc4563578d8a8a1c68b6638e62732e9",
+        "db55e8a5ef70cd4e0593cdcd9db89194778f226d",
+        "2d09e05f8b869a549c22ba9be1a0a2025046b30b",
+        "b633ae56880b28e8bc1ddc15b84fba6320212dad",
+        "b1ec55be52ce9cd54e48621b705f6a93e039293e"
+      ],
+      "end_reason": "queue_empty"
+    },
+    {
+      "id": "sl-main-e16d6df8",
+      "prev": "sl-main-bb0abb96",
+      "started": "2026-07-03 01:04:26.943 bst",
+      "ended": "2026-07-03 02:24:59.592 bst",
+      "metrics": {
+        "autonomous_loops": 0,
+        "tasks_completed": [],
+        "commits": 0,
+        "turns": 0,
+        "human_prompts": 0,
+        "errors": 0,
+        "compactions": 0,
+        "framing_checks_count": 0,
+        "framing_compliance_count": 0,
+        "hooks_latency_ms": {
+          "session-init": 404
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        }
+      },
+      "commit_shas": [],
+      "end_reason": "queue_empty"
+    },
+    {
+      "id": "sl-main-8c7c80ba",
+      "prev": "sl-main-e16d6df8",
+      "started": "2026-07-03 02:24:59.592 bst",
+      "ended": "2026-07-03 02:35:23.299 bst",
+      "metrics": {
+        "autonomous_loops": 0,
+        "tasks_completed": [],
+        "commits": 0,
+        "turns": 0,
+        "human_prompts": 0,
+        "errors": 0,
+        "compactions": 0,
+        "framing_checks_count": 0,
+        "framing_compliance_count": 0,
+        "hooks_latency_ms": {
+          "session-init": 306
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        }
+      },
+      "commit_shas": [],
+      "end_reason": "queue_empty"
+    },
+    {
+      "id": "sl-main-3866bafb",
+      "prev": "sl-main-8c7c80ba",
+      "started": "2026-07-03 02:35:23.299 bst",
+      "ended": "2026-07-03 04:36:46.887 bst",
+      "metrics": {
+        "autonomous_loops": 0,
+        "tasks_completed": [],
+        "commits": 0,
+        "turns": 0,
+        "human_prompts": 0,
+        "errors": 0,
+        "compactions": 0,
+        "framing_checks_count": 0,
+        "framing_compliance_count": 0,
+        "hooks_latency_ms": {
+          "session-init": 288
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        }
+      }
+    },
+    {
+      "id": "sl-main-c65bbc0a",
+      "prev": "sl-main-3866bafb",
+      "started": "2026-07-03 04:36:46.887 bst",
+      "ended": "2026-07-03 05:09:58.599 bst",
+      "metrics": {
+        "autonomous_loops": 0,
+        "tasks_completed": [],
+        "commits": 0,
+        "turns": 1,
+        "human_prompts": 3,
+        "errors": 0,
+        "compactions": 0,
+        "framing_checks_count": 0,
+        "framing_compliance_count": 0,
+        "hooks_latency_ms": {
+          "session-init": 185,
+          "message-end": 20
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        }
+      },
+      "commit_shas": [],
+      "end_reason": "queue_empty"
+    },
+    {
+      "id": "sl-main-366f75db",
+      "prev": "sl-main-c65bbc0a",
+      "started": "2026-07-03 05:09:58.599 bst",
+      "ended": "2026-07-03 05:11:59.201 bst",
+      "metrics": {
+        "autonomous_loops": 0,
+        "tasks_completed": [],
+        "commits": 0,
+        "turns": 0,
+        "human_prompts": 0,
+        "errors": 0,
+        "compactions": 0,
+        "framing_checks_count": 0,
+        "framing_compliance_count": 0,
+        "hooks_latency_ms": {
+          "session-init": 187
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        }
+      }
+    },
+    {
+      "id": "sl-main-e2ccdba1",
+      "prev": "sl-main-366f75db",
+      "started": "2026-07-03 05:11:59.201 bst",
+      "ended": "2026-07-03 05:11:59.689 bst",
+      "metrics": {
+        "autonomous_loops": 0,
+        "tasks_completed": [],
+        "commits": 0,
+        "turns": 0,
+        "human_prompts": 0,
+        "errors": 0,
+        "compactions": 0,
+        "framing_checks_count": 0,
+        "framing_compliance_count": 0,
+        "hooks_latency_ms": {
+          "session-init": 82
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        }
+      }
+    },
+    {
+      "id": "sl-main-8ac84934",
+      "prev": "sl-main-e2ccdba1",
+      "started": "2026-07-03 05:11:59.689 bst",
+      "ended": null,
+      "metrics": {
+        "autonomous_loops": 0,
+        "tasks_completed": [],
+        "commits": 1,
+        "turns": 0,
+        "human_prompts": 1,
+        "errors": 0,
+        "compactions": 0,
+        "hooks_latency_ms": {
+          "session-init": 65
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        },
+        "ralph_loops": null,
+        "framing_checks_count": 0,
+        "framing_compliance_count": 0
       }
     }
   ]

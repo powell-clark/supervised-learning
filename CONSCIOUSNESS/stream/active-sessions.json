@@ -1,24 +1,24 @@
 {
   "sessions": {
-    "sl-main-bb0abb96": {
+    "sl-main-8ac84934": {
       "assignment_message_id": null,
-      "canonical_id": "bb0abb96-ee45-4d76-a14f-f197d54c7da5",
-      "conscious_mode": true,
+      "canonical_id": "8ac84934-af77-4193-8096-fee430c0b2a1",
+      "conscious_mode": false,
       "context": {
         "adapter": "claude-code",
-        "pane": "4",
+        "pane": null,
         "project": "sl"
       },
       "current_activity": null,
       "current_task": "TASK-SL4",
       "identity": null,
-      "last_activity": "2026-07-01T11:37:12.152Z",
-      "model": "haiku",
-      "pane_id": "4",
+      "last_activity": "2026-07-03T06:53:48.241Z",
+      "model": "sonnet",
+      "pane_id": null,
       "role": "bodhisattva",
       "session_type": "cli",
       "specialty": null,
-      "started": "2026-07-01T11:15:10.210Z"
+      "started": "2026-07-03T04:11:59.710Z"
     }
   }
 }
