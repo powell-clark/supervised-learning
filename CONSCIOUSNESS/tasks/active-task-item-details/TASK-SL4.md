@@ -6,7 +6,7 @@ Create the practical notebook for K-Nearest Neighbors. Apply KNN to real dataset
 
 ## Acceptance Criteria
 
-- [ ] Notebook file created: `notebooks/5b_knn_practical.ipynb`
+- [x] Notebook file created: `notebooks/5b_knn_practical.ipynb`
 - [ ] Optimal K selection: Cross-validation grid search, plot error vs K to show optimal choice
 - [ ] Weighted KNN: Implement distance-weighted voting (weights = 1/distance)
 - [ ] Dataset: Non-trivial classification problem with varied dimensionality
