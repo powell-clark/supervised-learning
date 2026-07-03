@@ -84,6 +84,13 @@ checkpoints/
 # Tensorboard
 runs/
 
+# Serialized models produced by running notebooks
+*.pkl
+
+# Per-session framing snapshots (managed by consciousness plugin)
+.claude/framing-version-snapshot.*.json
+.claude/naming-precision-reminder.*.md
+
 # OS generated files
 .DS_Store
 .DS_Store?
