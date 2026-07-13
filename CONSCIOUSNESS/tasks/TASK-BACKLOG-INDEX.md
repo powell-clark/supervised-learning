@@ -1,5 +1,4 @@
 id|priority|title|story_ids|directive_id|feature_ids|doc|blocked_by|blocks|assignee|parent_task_id|sequence|expected_duration|story_points
-TASK-SL7|p2|Lesson 7a: Ensemble Methods theory — bias-variance, bagging, AdaBoost, gradient boosting|STORY-SL7|DIRECT-SL1|FEAT-SL4|backlog-task-item-details/TASK-SL7.md|TASK-SL6||4||50h|10
 TASK-SL8|p2|Lesson 7b: Ensemble Methods practical — XGBoost, LightGBM, hyperparameter tuning|STORY-SL7|DIRECT-SL1|FEAT-SL4|backlog-task-item-details/TASK-SL8.md|TASK-SL7||4||50h|10
 TASK-SL9|p2|Lesson 8a: Anomaly Detection theory — Gaussian modeling, Mahalanobis distance, Isolation Forest, One-Class SVM|STORY-SL8|DIRECT-SL1|FEAT-SL5|backlog-task-item-details/TASK-SL9.md|TASK-SL8||5||50h|10
 TASK-SL10|p2|Lesson 8b: Anomaly Detection practical — fraud detection case study, ROC curve analysis for imbalanced data|STORY-SL8|DIRECT-SL1|FEAT-SL5|backlog-task-item-details/TASK-SL10.md|TASK-SL9||5||50h|10
