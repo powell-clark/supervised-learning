@@ -7,3 +7,4 @@ TASK-SL5|Lesson 6a: Naive Bayes theory — Bayes theorem, conditional independen
 TASK-SL6|Lesson 6b: Naive Bayes practical — text classification, TF-IDF, Laplace smoothing|STORY-SL6|DIRECT-SL1|FEAT-SL3|done-task-item-details/TASK-SL6.md|45h|9
 TASK-SL7|Lesson 7a: Ensemble Methods theory — bias-variance, bagging, AdaBoost, gradient boosting|STORY-SL7|DIRECT-SL1|FEAT-SL4|done-task-item-details/TASK-SL7.md|50h|10
 TASK-SL8|Lesson 7b: Ensemble Methods practical — XGBoost, LightGBM, hyperparameter tuning|STORY-SL7|DIRECT-SL1|FEAT-SL4|done-task-item-details/TASK-SL8.md|50h|10
+TASK-SL9|Lesson 8a: Anomaly Detection theory — Gaussian modeling, Mahalanobis distance, Isolation Forest, One-Class SVM|STORY-SL8|DIRECT-SL1|FEAT-SL5|done-task-item-details/TASK-SL9.md|50h|10

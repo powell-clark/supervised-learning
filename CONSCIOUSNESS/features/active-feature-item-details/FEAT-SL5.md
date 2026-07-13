@@ -24,17 +24,28 @@ and isolation-based approaches (random forests, kernel methods). Special attenti
 paid to handling imbalanced datasets where anomalies are rare.
 
 ## Acceptance Criteria
-- [ ] Theory notebook complete with Gaussian anomaly detection and probability threshold selection
-- [ ] Mahalanobis distance derivation for multivariate Gaussian modeling
-- [ ] Isolation Forest algorithm explained with tree construction strategy
-- [ ] One-Class SVM formulation and kernel methods for anomaly detection
+- [x] Theory notebook complete with Gaussian anomaly detection and probability threshold selection
+- [x] Mahalanobis distance derivation for multivariate Gaussian modeling
+- [x] Isolation Forest algorithm explained with tree construction strategy
+- [x] One-Class SVM formulation and kernel methods for anomaly detection
 - [ ] Imbalanced data problem explained with precision-recall tradeoffs
 - [ ] Practical notebook with fraud detection case study (e.g., credit card data)
 - [ ] Threshold selection via ROC curve and precision-recall analysis
 - [ ] Performance metrics: TPR, FPR, ROC-AUC, PR-AUC for imbalanced data
 - [ ] Both notebooks run top-to-bottom in Google Colab with no local setup
-- [ ] NumPy implementations and Scikit-learn comparison for reproducibility
+- [x] NumPy implementations and Scikit-learn comparison for reproducibility
 
 ## Notes
-TASK-SL9 (theory) and TASK-SL10 (practical) pending. This feature card documents
-the acceptance bar both tasks must meet when complete.
+TASK-SL9 (theory, verified 2026-07-13): notebooks/8a_anomaly_detection_theory.ipynb
+covers Gaussian anomaly detection with threshold selection, the Mahalanobis
+distance derivation (with a worked example showing it catches correlation
+violations a per-feature check misses), Isolation Forest's path-length
+mechanism, One-Class SVM's boundary-fitting formulation, a from-scratch
+multivariate Gaussian detector matching scikit-learn's EmpiricalCovariance,
+and a four-way comparison against IsolationForest/OneClassSVM.
+
+"Imbalanced data problem explained with precision-recall tradeoffs" is left
+for TASK-SL10 (practical) — this is squarely a real-fraud-data topic (extreme
+class imbalance, ROC/PR-AUC on a genuinely skewed dataset), not something a
+synthetic theory-notebook example can demonstrate honestly. TASK-SL10 remains
+in the backlog; feature stays in_progress until it lands.

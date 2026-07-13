@@ -1,5 +1,4 @@
 id|priority|title|story_ids|directive_id|feature_ids|doc|blocked_by|blocks|assignee|parent_task_id|sequence|expected_duration|story_points
-TASK-SL9|p2|Lesson 8a: Anomaly Detection theory — Gaussian modeling, Mahalanobis distance, Isolation Forest, One-Class SVM|STORY-SL8|DIRECT-SL1|FEAT-SL5|backlog-task-item-details/TASK-SL9.md|TASK-SL8||5||50h|10
 TASK-SL10|p2|Lesson 8b: Anomaly Detection practical — fraud detection case study, ROC curve analysis for imbalanced data|STORY-SL8|DIRECT-SL1|FEAT-SL5|backlog-task-item-details/TASK-SL10.md|TASK-SL9||5||50h|10
 TASK-SL11|p1|Lesson 9a: CNN theory — discrete convolution, backprop through conv layers, pooling gradients, weight sharing|STORY-SL9|DIRECT-SL1|FEAT-SL6|backlog-task-item-details/TASK-SL11.md|TASK-SL10||6||70h|14
 TASK-SL12|p1|Lesson 9a: CNN practical — image classification, transfer learning mathematics, NumPy CNN implementation|STORY-SL9|DIRECT-SL1|FEAT-SL6|backlog-task-item-details/TASK-SL12.md|TASK-SL11||6||70h|14
