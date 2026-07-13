@@ -1,6 +1,6 @@
 ---
 id: FEAT-SL5
-status: backlog
+status: maintained
 priority: p2
 kano: performance
 title: Lesson 8 — Anomaly Detection theory and practice
@@ -28,11 +28,11 @@ paid to handling imbalanced datasets where anomalies are rare.
 - [x] Mahalanobis distance derivation for multivariate Gaussian modeling
 - [x] Isolation Forest algorithm explained with tree construction strategy
 - [x] One-Class SVM formulation and kernel methods for anomaly detection
-- [ ] Imbalanced data problem explained with precision-recall tradeoffs
-- [ ] Practical notebook with fraud detection case study (e.g., credit card data)
-- [ ] Threshold selection via ROC curve and precision-recall analysis
-- [ ] Performance metrics: TPR, FPR, ROC-AUC, PR-AUC for imbalanced data
-- [ ] Both notebooks run top-to-bottom in Google Colab with no local setup
+- [x] Imbalanced data problem explained with precision-recall tradeoffs
+- [x] Practical notebook with fraud detection case study (e.g., credit card data)
+- [x] Threshold selection via ROC curve and precision-recall analysis
+- [x] Performance metrics: TPR, FPR, ROC-AUC, PR-AUC for imbalanced data
+- [x] Both notebooks run top-to-bottom in Google Colab with no local setup
 - [x] NumPy implementations and Scikit-learn comparison for reproducibility
 
 ## Notes
@@ -44,8 +44,19 @@ mechanism, One-Class SVM's boundary-fitting formulation, a from-scratch
 multivariate Gaussian detector matching scikit-learn's EmpiricalCovariance,
 and a four-way comparison against IsolationForest/OneClassSVM.
 
-"Imbalanced data problem explained with precision-recall tradeoffs" is left
-for TASK-SL10 (practical) — this is squarely a real-fraud-data topic (extreme
-class imbalance, ROC/PR-AUC on a genuinely skewed dataset), not something a
-synthetic theory-notebook example can demonstrate honestly. TASK-SL10 remains
-in the backlog; feature stays in_progress until it lands.
+TASK-SL10 (practical, verified 2026-07-13): notebooks/8b_anomaly_detection_practical.ipynb
+applies all three methods to the real credit card fraud dataset (284,807
+transactions, 0.172% fraud), demonstrates the ROC-AUC vs PR-AUC gap directly
+(every method's ROC-AUC is 0.46-0.70 higher than its PR-AUC), performs
+cost-weighted threshold selection (fraud misses assumed 100x costlier than
+false alarms), and compares against a supervised RandomForest baseline —
+including the finding that ROC-AUC barely distinguishes supervised from
+unsupervised (0.947 vs 0.950) while PR-AUC shows an enormous gap (0.82 vs
+0.49), reinforcing the lesson's central point empirically rather than just
+asserting it.
+
+Both tasks complete; all acceptance criteria met. First-pass independent review
+(REVIEW-CCC034) found a genuine StandardScaler leakage bug and an Isolation
+Forest labeled-data inconsistency in 8b; both fixed and confirmed by a second
+independent review (REVIEW-CCC035, blind, separate agent). Feature moves to
+maintained per the agent-tier gate (performance kano).

@@ -1,3 +1,4 @@
 id|kano|status|description|story_ids|task_ids|doc|last_tested
 FEAT-SL3|performance|maintained|Lesson 6 — Naive Bayes theory and practice|STORY-SL6|TASK-SL5,TASK-SL6|CONSCIOUSNESS/features/maintained-done-feature-item-details/FEAT-SL3.md|2026-07-13
 FEAT-SL4|performance|maintained|Lesson 7 — Ensemble Methods theory and practice|STORY-SL7|TASK-SL7,TASK-SL8|CONSCIOUSNESS/features/maintained-done-feature-item-details/FEAT-SL4.md|2026-07-13
+FEAT-SL5|performance|maintained|Lesson 8 — Anomaly Detection theory and practice|STORY-SL8|TASK-SL9,TASK-SL10|CONSCIOUSNESS/features/maintained-done-feature-item-details/FEAT-SL5.md|2026-07-13
