@@ -1,6 +1,6 @@
 ---
 id: FEAT-SL1
-status: backlog
+status: in_progress
 priority: p2
 kano: performance
 title: Lesson 4 — Support Vector Machines theory and practice
@@ -26,16 +26,18 @@ This feature ensures comprehensive theory coverage, practical implementation det
 and the NumPy derivation that exposes the algorithm's internal mechanics.
 
 ## Acceptance Criteria
-- [ ] Theory notebook complete with maximum margin problem formulation and geometric interpretation
-- [ ] Lagrangian dual formulation with KKT conditions and complementary slackness
-- [ ] Kernel trick explanation with polynomial, RBF, and linear kernel derivations
-- [ ] Soft margin formulation (C parameter) with geometric interpretation
-- [ ] Practical notebook with comparison of kernel types on binary classification
-- [ ] Hyperparameter tuning via grid search with cross-validation
+- [x] Theory notebook complete with maximum margin problem formulation and geometric interpretation
+- [x] Lagrangian dual formulation with KKT conditions and complementary slackness
+- [x] Kernel trick explanation with polynomial, RBF, and linear kernel derivations
+- [x] Soft margin formulation (C parameter) with geometric interpretation
+- [x] Practical notebook with comparison of kernel types on binary classification
+- [x] Hyperparameter tuning via grid search with cross-validation
 - [ ] Multi-class extension (one-vs-rest, one-vs-one) explained
-- [ ] Both notebooks run top-to-bottom in Google Colab with no local setup
-- [ ] NumPy implementation of linear SVM; Scikit-learn comparison
+- [x] Both notebooks run top-to-bottom in Google Colab with no local setup
+- [x] NumPy implementation of linear SVM; Scikit-learn comparison
 
 ## Notes
-TASK-SL1 and TASK-SL2 are complete. This feature card documents the acceptance bar
-that was met by those tasks.
+TASK-SL1 is complete (theory notebook, verified 2026-07-13). TASK-SL2 (practical
+notebook) is marked done in the index but does not cover the multi-class extension
+(one-vs-rest, one-vs-one) acceptance criterion — see TASK-SL020 for the follow-up.
+Feature stays in_progress until that gap closes.

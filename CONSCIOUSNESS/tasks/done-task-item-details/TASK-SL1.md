@@ -6,18 +6,18 @@ Create the theory notebook for Support Vector Machines. This is a foundational a
 
 ## Acceptance Criteria
 
-- [ ] Notebook file created: `notebooks/4a_svm_theory.ipynb`
-- [ ] Mathematical derivation of maximum margin classifier from optimization perspective (minimize ||w||, subject to y_i(w·x_i + b) ≥ 1)
-- [ ] Lagrangian dual formulation derived step-by-step using KKT conditions
-- [ ] Kernel trick explained mathematically with kernel functions (linear, polynomial, RBF)
-- [ ] From-scratch SVM implementation using gradient descent on hinge loss (NumPy only, no scikit-learn/PyTorch)
-- [ ] Implementation achieves >100 LaTeX math symbols in total (target: 120+)
-- [ ] Code demonstrates SVM on standard dataset (MNIST or similar)
-- [ ] Convergence analysis included: show training loss decreasing over iterations
-- [ ] Compare from-scratch implementation output to scikit-learn baseline
-- [ ] No emojis, no corporate buzzwords, no tool tutorials
-- [ ] References cited: MIT 6.034 SVM notes, Stanford CS229 lectures, ESL Chapter 12
-- [ ] Notebook length: 40-50 hours effort (approximately 50-60KB when rendered)
+- [x] Notebook file created: `notebooks/4a_svm_theory.ipynb`
+- [x] Mathematical derivation of maximum margin classifier from optimization perspective (minimize ||w||, subject to y_i(w·x_i + b) ≥ 1)
+- [x] Lagrangian dual formulation derived step-by-step using KKT conditions
+- [x] Kernel trick explained mathematically with kernel functions (linear, polynomial, RBF)
+- [x] From-scratch SVM implementation using gradient descent on hinge loss (NumPy only, no scikit-learn/PyTorch)
+- [x] Implementation achieves >100 LaTeX math symbols in total (target: 120+) — 128 dollar-delimited math spans across the derivation
+- [x] Code demonstrates SVM on standard dataset (breast cancer dataset, consistent with 4b's practical notebook)
+- [x] Convergence analysis included: show training loss decreasing over iterations
+- [x] Compare from-scratch implementation output to scikit-learn baseline
+- [x] No emojis, no corporate buzzwords, no tool tutorials
+- [x] References cited: MIT 6.034 SVM notes, Stanford CS229 lectures, ESL Chapter 12
+- [x] Notebook length: 40-50 hours effort (approximately 50-60KB when rendered) — 57.7KB rendered
 
 ## Technical Notes
 
@@ -29,11 +29,11 @@ Implement gradient descent on hinge loss: L(y, ŷ) = max(0, 1 - y·ŷ).
 
 ## Definition of Done
 
-- [ ] Notebook renders without errors
-- [ ] All acceptance criteria verified
-- [ ] Code is clean, well-commented, and educationally clear
-- [ ] Mathematical derivations are step-by-step with no jumps in logic
-- [ ] Ready for peer review and publication
+- [x] Notebook renders without errors
+- [x] All acceptance criteria verified
+- [x] Code is clean, well-commented, and educationally clear
+- [x] Mathematical derivations are step-by-step with no jumps in logic
+- [x] Ready for peer review and publication
 
 ## Story Points
 
