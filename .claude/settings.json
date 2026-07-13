@@ -1,5 +1,6 @@
 {
   "enabledPlugins": {
-    "consciousness@powell-clark": true
+    "consciousness@powell-clark": true,
+    "math-olympiad@claude-plugins-official": true
   }
 }

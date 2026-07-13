@@ -99,3 +99,6 @@
 {"timestamp":"2026-07-13 13:52:55.760 bst","session_id":"sl-main-e243df2d","hook_name":"message-end","latency_ms":17}
 {"timestamp":"2026-07-13 13:59:36.062 bst","session_id":"sl-main-e243df2d","hook_name":"message-end","latency_ms":14}
 {"timestamp":"2026-07-13 14:17:14.192 bst","session_id":"sl-main-e243df2d","hook_name":"message-end","latency_ms":19}
+{"timestamp":"2026-07-13 14:27:01.315 bst","session_id":"sl-main-e243df2d","hook_name":"message-end","latency_ms":25}
+{"timestamp":"2026-07-13 14:41:25.667 bst","session_id":"sl-main-e243df2d","hook_name":"user-prompt-submit","latency_ms":28}
+{"timestamp":"2026-07-13 14:42:49.419 bst","session_id":"sl-main-e243df2d","hook_name":"user-prompt-submit","latency_ms":22}
