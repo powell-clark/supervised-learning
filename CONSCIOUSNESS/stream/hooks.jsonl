@@ -97,3 +97,4 @@
 {"timestamp":"2026-07-13 11:50:10.934 bst","session_id":"sl-main-e243df2d","hook_name":"session-init","latency_ms":143}
 {"timestamp":"2026-07-13 12:45:15.302 bst","session_id":"sl-main-e243df2d","hook_name":"message-end","latency_ms":8}
 {"timestamp":"2026-07-13 13:52:55.760 bst","session_id":"sl-main-e243df2d","hook_name":"message-end","latency_ms":17}
+{"timestamp":"2026-07-13 13:59:36.062 bst","session_id":"sl-main-e243df2d","hook_name":"message-end","latency_ms":14}
