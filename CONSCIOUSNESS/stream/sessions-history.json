@@ -253,18 +253,223 @@
       "id": "sl-main-8ac84934",
       "prev": "sl-main-e2ccdba1",
       "started": "2026-07-03 05:11:59.689 bst",
-      "ended": null,
+      "ended": "2026-07-06 00:57:23.692 bst",
       "metrics": {
         "autonomous_loops": 0,
         "tasks_completed": [],
-        "commits": 5,
-        "turns": 0,
-        "human_prompts": 1,
+        "commits": 6,
+        "turns": 2,
+        "human_prompts": 2,
         "errors": 0,
         "compactions": 0,
+        "framing_checks_count": 0,
+        "framing_compliance_count": 0,
         "hooks_latency_ms": {
-          "session-init": 65
+          "session-init": 65,
+          "message-end": 8
         },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        }
+      }
+    },
+    {
+      "id": "sl-main-4dfdc008",
+      "prev": "sl-main-8ac84934",
+      "started": "2026-07-06 00:57:23.692 bst",
+      "ended": "2026-07-06 00:57:39.949 bst",
+      "metrics": {
+        "autonomous_loops": 0,
+        "tasks_completed": [],
+        "commits": 0,
+        "turns": 0,
+        "human_prompts": 0,
+        "errors": 0,
+        "compactions": 0,
+        "framing_checks_count": 0,
+        "framing_compliance_count": 0,
+        "hooks_latency_ms": {
+          "session-init": 235
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        }
+      },
+      "commit_shas": [],
+      "end_reason": "queue_empty"
+    },
+    {
+      "id": "sl-main-36c0b205",
+      "prev": "sl-main-4dfdc008",
+      "started": "2026-07-07 02:27:38.253 bst",
+      "ended": "2026-07-07 02:59:29.495 bst",
+      "metrics": {
+        "autonomous_loops": 0,
+        "tasks_completed": [],
+        "commits": 0,
+        "turns": 0,
+        "human_prompts": 0,
+        "errors": 0,
+        "compactions": 0,
+        "framing_checks_count": 0,
+        "framing_compliance_count": 0,
+        "hooks_latency_ms": {
+          "session-init": 126
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        }
+      },
+      "commit_shas": [],
+      "end_reason": "queue_empty"
+    },
+    {
+      "id": "sl-main-6946e705",
+      "prev": "sl-main-36c0b205",
+      "started": "2026-07-07 03:21:37.458 bst",
+      "ended": "2026-07-07 05:22:53.323 bst",
+      "metrics": {
+        "autonomous_loops": 0,
+        "tasks_completed": [],
+        "commits": 0,
+        "turns": 0,
+        "human_prompts": 0,
+        "errors": 0,
+        "compactions": 0,
+        "framing_checks_count": 0,
+        "framing_compliance_count": 0,
+        "hooks_latency_ms": {
+          "session-init": 162
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        }
+      },
+      "commit_shas": [],
+      "end_reason": "queue_empty"
+    },
+    {
+      "id": "sl-main-f5963997",
+      "prev": "sl-main-6946e705",
+      "started": "2026-07-07 16:10:13.802 bst",
+      "ended": "2026-07-08 01:19:11.309 bst",
+      "metrics": {
+        "autonomous_loops": 0,
+        "tasks_completed": [],
+        "commits": 0,
+        "turns": 0,
+        "human_prompts": 0,
+        "errors": 0,
+        "compactions": 0,
+        "framing_checks_count": 0,
+        "framing_compliance_count": 0,
+        "hooks_latency_ms": {
+          "session-init": 185
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        }
+      },
+      "commit_shas": [],
+      "end_reason": "queue_empty"
+    },
+    {
+      "id": "sl-main-25deb224",
+      "prev": "sl-main-f5963997",
+      "started": "2026-07-08 02:25:23.726 bst",
+      "ended": "2026-07-08 14:35:47.543 bst",
+      "metrics": {
+        "autonomous_loops": 0,
+        "tasks_completed": [],
+        "commits": 0,
+        "turns": 0,
+        "human_prompts": 0,
+        "errors": 0,
+        "compactions": 0,
+        "framing_checks_count": 0,
+        "framing_compliance_count": 0,
+        "hooks_latency_ms": {
+          "session-init": 303
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        }
+      },
+      "commit_shas": [],
+      "end_reason": "queue_empty"
+    },
+    {
+      "id": "sl-main-b81e4ffb",
+      "prev": "sl-main-25deb224",
+      "started": "2026-07-10 04:22:16.373 bst",
+      "ended": "2026-07-10 04:23:21.021 bst",
+      "metrics": {
+        "autonomous_loops": 0,
+        "tasks_completed": [],
+        "commits": 0,
+        "turns": 0,
+        "human_prompts": 0,
+        "errors": 0,
+        "compactions": 0,
+        "framing_checks_count": 0,
+        "framing_compliance_count": 0,
+        "hooks_latency_ms": {
+          "session-init": 139
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        }
+      },
+      "commit_shas": [],
+      "end_reason": "queue_empty"
+    },
+    {
+      "id": "sl-main-861a0905",
+      "prev": "sl-main-b81e4ffb",
+      "started": "2026-07-10 04:27:17.714 bst",
+      "ended": "2026-07-10 15:48:14.736 bst",
+      "metrics": {
+        "autonomous_loops": 0,
+        "tasks_completed": [],
+        "commits": 0,
+        "turns": 0,
+        "human_prompts": 0,
+        "errors": 0,
+        "compactions": 0,
+        "framing_checks_count": 0,
+        "framing_compliance_count": 0,
+        "hooks_latency_ms": {
+          "session-init": 176
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0
+        }
+      },
+      "commit_shas": [],
+      "end_reason": "queue_empty"
+    },
+    {
+      "id": "sl-main-e243df2d",
+      "prev": "sl-main-861a0905",
+      "started": "2026-07-13 11:50:10.850 bst",
+      "ended": null,
+      "metrics": {
+        "autonomous_loops": 1,
+        "tasks_completed": [],
+        "commits": 2,
+        "turns": 0,
+        "human_prompts": 0,
+        "errors": 0,
+        "compactions": 0,
+        "hooks_latency_ms": {},
         "usage": {
           "input_tokens": 0,
           "output_tokens": 0

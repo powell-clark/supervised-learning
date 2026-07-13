@@ -85,3 +85,14 @@
 {"timestamp":"2026-07-03 05:09:58.721 bst","session_id":"sl-main-366f75db","hook_name":"session-init","latency_ms":187}
 {"timestamp":"2026-07-03 05:11:59.256 bst","session_id":"sl-main-e2ccdba1","hook_name":"session-init","latency_ms":82}
 {"timestamp":"2026-07-03 05:11:59.731 bst","session_id":"sl-main-8ac84934","hook_name":"session-init","latency_ms":65}
+{"timestamp":"2026-07-03 07:55:50.344 bst","session_id":"sl-main-8ac84934","hook_name":"message-end","latency_ms":6}
+{"timestamp":"2026-07-03 21:44:11.296 bst","session_id":"sl-main-8ac84934","hook_name":"message-end","latency_ms":8}
+{"timestamp":"2026-07-06 00:57:23.821 bst","session_id":"sl-main-4dfdc008","hook_name":"session-init","latency_ms":235}
+{"timestamp":"2026-07-07 02:27:38.327 bst","session_id":"sl-main-36c0b205","hook_name":"session-init","latency_ms":126}
+{"timestamp":"2026-07-07 03:21:37.559 bst","session_id":"sl-main-6946e705","hook_name":"session-init","latency_ms":162}
+{"timestamp":"2026-07-07 16:10:13.931 bst","session_id":"sl-main-f5963997","hook_name":"session-init","latency_ms":185}
+{"timestamp":"2026-07-08 02:25:23.906 bst","session_id":"sl-main-25deb224","hook_name":"session-init","latency_ms":303}
+{"timestamp":"2026-07-10 04:22:16.458 bst","session_id":"sl-main-b81e4ffb","hook_name":"session-init","latency_ms":139}
+{"timestamp":"2026-07-10 04:27:17.830 bst","session_id":"sl-main-861a0905","hook_name":"session-init","latency_ms":176}
+{"timestamp":"2026-07-13 11:50:10.934 bst","session_id":"sl-main-e243df2d","hook_name":"session-init","latency_ms":143}
+{"timestamp":"2026-07-13 12:45:15.302 bst","session_id":"sl-main-e243df2d","hook_name":"message-end","latency_ms":8}

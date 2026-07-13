@@ -11,3 +11,5 @@
 {"timestamp":"2026-07-03 04:42:54.809 bst","session_id":"sl-main-c65bbc0a","command":"/consciousness:on"}
 {"timestamp":"2026-07-03 04:44:23.375 bst","session_id":"sl-main-c65bbc0a","command":"/consciousness:on"}
 {"timestamp":"2026-07-03 04:54:02.904 bst","session_id":"sl-main-c65bbc0a","command":"/consciousness:off"}
+{"timestamp":"2026-07-03 21:43:59.964 bst","session_id":"sl-main-8ac84934","command":"/consciousness:apgps"}
+{"timestamp":"2026-07-13 12:44:37.882 bst","session_id":"sl-main-e243df2d","command":"/consciousness:on"}

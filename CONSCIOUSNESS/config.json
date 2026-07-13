@@ -17,5 +17,8 @@
       "roadmap"
     ],
     "batch_size": 50
+  },
+  "telemetry": {
+    "upload": true
   }
 }
