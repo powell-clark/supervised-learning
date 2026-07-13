@@ -462,16 +462,14 @@
       "started": "2026-07-13 11:50:10.850 bst",
       "ended": null,
       "metrics": {
-        "autonomous_loops": 5,
+        "autonomous_loops": 7,
         "tasks_completed": [],
-        "commits": 21,
+        "commits": 23,
         "turns": 0,
-        "human_prompts": 2,
+        "human_prompts": 0,
         "errors": 0,
         "compactions": 0,
-        "hooks_latency_ms": {
-          "user-prompt-submit": 22
-        },
+        "hooks_latency_ms": {},
         "usage": {
           "input_tokens": 0,
           "output_tokens": 0
