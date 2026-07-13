@@ -4,3 +4,4 @@ TASK-SL2|Lesson 4b: SVM practical — kernel comparison and hyperparameter tunin
 TASK-SL3|Lesson 5a: KNN theory — distance metrics, KD-tree mathematics, curse of dimensionality|STORY-SL5|DIRECT-SL1|FEAT-SL2|done-task-item-details/TASK-SL3.md|45h|9
 TASK-SL4|Lesson 5b: KNN practical — optimal K selection, weighted voting, KD-tree implementation|STORY-SL5|DIRECT-SL1|FEAT-SL2|done-task-item-details/TASK-SL4.md|45h|9
 TASK-SL5|Lesson 6a: Naive Bayes theory — Bayes theorem, conditional independence, Gaussian/Multinomial/Bernoulli variants|STORY-SL6|DIRECT-SL1|FEAT-SL3|done-task-item-details/TASK-SL5.md|45h|9
+TASK-SL6|Lesson 6b: Naive Bayes practical — text classification, TF-IDF, Laplace smoothing|STORY-SL6|DIRECT-SL1|FEAT-SL3|done-task-item-details/TASK-SL6.md|45h|9

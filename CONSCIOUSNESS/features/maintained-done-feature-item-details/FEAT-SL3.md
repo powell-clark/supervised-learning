@@ -1,6 +1,6 @@
 ---
 id: FEAT-SL3
-status: in_progress
+status: maintained
 priority: p2
 kano: performance
 title: Lesson 6 — Naive Bayes theory and practice
@@ -30,13 +30,23 @@ and practical applications in text classification.
 - [x] Multinomial Naive Bayes for text classification (bag-of-words)
 - [x] Bernoulli Naive Bayes variant explained
 - [x] Laplace smoothing problem and solution documented
-- [ ] Practical notebook with text classification case study (e.g., spam detection)
-- [ ] TF-IDF vectorization with NumPy and Scikit-learn comparison
-- [ ] Both notebooks run top-to-bottom in Google Colab with no local setup
-- [ ] Accuracy, precision, recall, F1 analysis on classification results
+- [x] Practical notebook with text classification case study (20 Newsgroups subset, 4-class)
+- [x] TF-IDF vectorization with NumPy and Scikit-learn comparison — from-scratch NumPy TF-IDF matches scikit-learn to 2.22e-16
+- [x] Both notebooks run top-to-bottom in Google Colab with no local setup
+- [x] Accuracy, precision, recall, F1 analysis on classification results
 
 ## Notes
-TASK-SL5 (theory) is complete (verified 2026-07-13): notebooks/6a_naive_bayes_theory.ipynb
-covers Bayes' theorem, conditional independence, all three variants, Laplace
-smoothing, and a from-scratch Gaussian NB matching scikit-learn exactly. TASK-SL6
-(practical) remains in the backlog. Feature stays in_progress until that lands.
+TASK-SL5 (theory, verified 2026-07-13): notebooks/6a_naive_bayes_theory.ipynb covers
+Bayes' theorem, conditional independence, all three variants, Laplace smoothing, and
+a from-scratch Gaussian NB matching scikit-learn exactly.
+
+TASK-SL6 (practical, verified 2026-07-13): notebooks/6b_naive_bayes_practical.ipynb
+covers TF-IDF (with a from-scratch NumPy implementation matching scikit-learn),
+a from-scratch MultinomialNB matching scikit-learn, an empirical Laplace-smoothing
+sweep, a GaussianNB-on-text comparison showing why it underperforms, confusion
+matrix, most-informative-features, and error analysis on the 20 Newsgroups subset.
+
+All acceptance criteria met. An independent agent review (blind to this
+session's summary) re-executed the from-scratch implementations against live
+scikit-learn and verdicted APPROVE — see REVIEW-CCC018. Feature moves to
+maintained per the agent-tier gate (performance kano).
