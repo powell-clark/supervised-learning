@@ -1,6 +1,6 @@
 ---
 id: FEAT-SL3
-status: backlog
+status: in_progress
 priority: p2
 kano: performance
 title: Lesson 6 — Naive Bayes theory and practice
@@ -24,17 +24,19 @@ well on text and high-dimensional data. The lesson covers the mathematical found
 and practical applications in text classification.
 
 ## Acceptance Criteria
-- [ ] Theory notebook complete with Bayes theorem derivation and geometric interpretation
-- [ ] Conditional independence assumption explained with worked examples
-- [ ] Gaussian Naive Bayes for continuous features with derivation
-- [ ] Multinomial Naive Bayes for text classification (bag-of-words)
-- [ ] Bernoulli Naive Bayes variant explained
-- [ ] Laplace smoothing problem and solution documented
+- [x] Theory notebook complete with Bayes theorem derivation and geometric interpretation
+- [x] Conditional independence assumption explained with worked examples
+- [x] Gaussian Naive Bayes for continuous features with derivation
+- [x] Multinomial Naive Bayes for text classification (bag-of-words)
+- [x] Bernoulli Naive Bayes variant explained
+- [x] Laplace smoothing problem and solution documented
 - [ ] Practical notebook with text classification case study (e.g., spam detection)
 - [ ] TF-IDF vectorization with NumPy and Scikit-learn comparison
 - [ ] Both notebooks run top-to-bottom in Google Colab with no local setup
 - [ ] Accuracy, precision, recall, F1 analysis on classification results
 
 ## Notes
-TASK-SL5 (theory) and TASK-SL6 (practical) pending. This feature card documents
-the acceptance bar both tasks must meet when complete.
+TASK-SL5 (theory) is complete (verified 2026-07-13): notebooks/6a_naive_bayes_theory.ipynb
+covers Bayes' theorem, conditional independence, all three variants, Laplace
+smoothing, and a from-scratch Gaussian NB matching scikit-learn exactly. TASK-SL6
+(practical) remains in the backlog. Feature stays in_progress until that lands.
