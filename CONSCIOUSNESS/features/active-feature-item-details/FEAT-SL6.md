@@ -54,12 +54,12 @@ mathematical and implementation perspectives.
 ## Practice Acceptance Criteria
 
 ### CNN Practical (TASK-SL12)
-- [ ] Image classification on CIFAR-10 or similar dataset
-- [ ] Transfer learning using pre-trained models (ResNet, VGG)
-- [ ] Feature visualization techniques (filters, activation maps)
-- [ ] Model architecture comparison (SimpleNet, AlexNet concepts)
-- [ ] NumPy CNN implementation of core layers
-- [ ] PyTorch comparison for reproducibility
+- [x] Image classification on CIFAR-10 or similar dataset
+- [x] Transfer learning using pre-trained models (ResNet, VGG)
+- [x] Feature visualization techniques (filters, activation maps)
+- [x] Model architecture comparison (SimpleNet, AlexNet concepts)
+- [x] NumPy CNN implementation of core layers
+- [x] PyTorch comparison for reproducibility
 
 ### RNN Practical (TASK-SL14)
 - [ ] Time series forecasting (e.g., stock prices, temperature)
@@ -93,4 +93,13 @@ discrete convolution, weight sharing/parameter reduction, receptive field growth
 backprop through conv and pooling layers (gradient-checked to floating-point
 precision), a from-scratch CNN trained on real MNIST (89.2% test accuracy vs
 88.8% for an sklearn MLP baseline on the same split), and ResNet/skip-connection
-motivation. Remaining five tasks (SL12-SL16) pending; feature stays in_progress.
+motivation.
+
+TASK-SL12 (CNN practical, verified 2026-07-13): notebooks/9b_cnn_practical.ipynb
+(30 cells) trains a CIFAR_CNN PyTorch model (156,074 params, 15 epochs on 4000
+CIFAR-10 images fetched via fetch_openml('CIFAR_10_small', ...)), fine-tunes a
+frozen-backbone ResNet-18 (1200 images, 5 epochs), visualizes learned filters and
+activations, and reproduces 9a's Conv2D/MaxPool2D inline for a NumPy-vs-PyTorch
+correctness comparison on a 500/150-image CIFAR-10 subset. Executed end-to-end
+without errors (1m52s). Remaining four tasks (SL13-SL16, RNN and Transformer
+theory/practical) pending; feature stays in_progress.

@@ -10,3 +10,4 @@ TASK-SL8|Lesson 7b: Ensemble Methods practical — XGBoost, LightGBM, hyperparam
 TASK-SL9|Lesson 8a: Anomaly Detection theory — Gaussian modeling, Mahalanobis distance, Isolation Forest, One-Class SVM|STORY-SL8|DIRECT-SL1|FEAT-SL5|done-task-item-details/TASK-SL9.md|50h|10
 TASK-SL10|Lesson 8b: Anomaly Detection practical — fraud detection case study, ROC curve analysis for imbalanced data|STORY-SL8|DIRECT-SL1|FEAT-SL5|done-task-item-details/TASK-SL10.md|50h|10
 TASK-SL11|Lesson 9a: CNN theory — discrete convolution, backprop through conv layers, pooling gradients, weight sharing|STORY-SL9|DIRECT-SL1|FEAT-SL6|done-task-item-details/TASK-SL11.md|70h|14
+TASK-SL12|Lesson 9a: CNN practical — image classification, transfer learning mathematics, NumPy CNN implementation|STORY-SL9|DIRECT-SL1|FEAT-SL6|done-task-item-details/TASK-SL12.md|70h|14
