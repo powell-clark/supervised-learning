@@ -9,7 +9,9 @@ seaborn==0.13.2
 # Machine Learning
 scikit-learn==1.5.2
 category-encoders==2.6.4
-xgboost==1.7.9
+xgboost==1.7.6
+lightgbm>=4.0.0
+optuna>=3.5.0
 joblib==1.4.2
 tqdm==4.67.1
 imbalanced-learn>=0.11.0  # For SMOTE and imbalanced data (X4)
