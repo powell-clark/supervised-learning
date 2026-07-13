@@ -1,6 +1,6 @@
 ---
 id: FEAT-SL1
-status: in_progress
+status: maintained
 priority: p2
 kano: performance
 title: Lesson 4 — Support Vector Machines theory and practice
@@ -42,5 +42,8 @@ closed the remaining gap: notebooks/4b_support_vector_machines_practical.ipynb n
 covers the multi-class extension (one-vs-rest, one-vs-one) with a Digits-dataset
 demonstration (K=10) showing OvR's 10 classifiers vs OvO's 45, and confirms
 scikit-learn's SVC reduces multi-class to one-vs-one internally regardless of
-decision_function_shape. All acceptance criteria met; feature ready to move to
-maintained (performance kano, agent-tier gate).
+decision_function_shape. Independent review (REVIEW-CCC046, blind to implementer
+summary) confirmed both notebooks execute end-to-end with zero errors and
+independently re-verified the multi-class demonstration's classifier counts and
+decision_function shapes via a standalone script. Verdict: APPROVE. Feature moved
+to maintained 2026-07-13 (performance kano, agent-tier gate).
