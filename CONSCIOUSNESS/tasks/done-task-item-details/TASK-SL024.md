@@ -55,6 +55,28 @@ pre-existing defects, all fixed:
 
 Both notebooks (44 + 55 cells) execute end-to-end with zero error outputs.
 
+## Second-Pass Fixes (2026-07-13)
+
+An independent review agent (blind to the above) REJECTED the first pass, finding
+two real defects the code-cell-only newline fix missed:
+1. Markdown cells (not just code cells) had the same newline-stripping corruption —
+   13 of 34 markdown cells in 5a and 8 of 29 in 5b had heading and body text glued
+   into one unbroken string (e.g. `## Distance MetricsThe foundation of KNN...`).
+   Fixed by manually reconstructing correct paragraph/heading/bullet structure for
+   every affected cell (not a blanket regex, to avoid introducing new errors) and
+   verifying no cells with this corruption pattern remain.
+2. `5b_knn_practical.ipynb` cell 17 ("Verification: Our Implementation vs
+   Scikit-Learn") computed only `sklearn_acc` and unconditionally printed
+   `'✓ Implementations verified against scikit-learn'` without ever invoking the
+   from-scratch `WeightedKNN` class to actually compare against it — an assertion
+   with no computation behind it. Fixed by running `WeightedKNN(weight_type='uniform')`
+   (matching sklearn's default configuration) against the same test data and
+   printing genuine prediction-agreement and accuracy numbers (both 1.0000 on this
+   split), replacing the unconditional checkmark with output that reflects what was
+   actually computed.
+
+Both notebooks re-executed end-to-end with zero error outputs after these fixes.
+
 ## References
 
 - FEAT-SL2 (Lesson 5 — K-Nearest Neighbors theory and practice)

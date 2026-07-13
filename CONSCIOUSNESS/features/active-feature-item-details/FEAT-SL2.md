@@ -48,5 +48,14 @@ the from-scratch KDTree — an attribute-order bug and an infinite-recursion bug
 not excluding the split median from its own subtree); `notebooks/5b_knn_practical.ipynb`'s
 KD-tree-vs-brute-force benchmark measured `.fit()` time instead of retrieval time and
 omitted ball-tree entirely. Both notebooks now execute end-to-end with zero errors
-(44 + 55 cells). All acceptance criteria genuinely met; feature ready to move to
-maintained (performance kano, agent-tier gate).
+(44 + 55 cells).
+
+An independent review (REVIEW-CCC049) REJECTED this first pass: markdown cells (not
+just code cells) had the same newline-stripping corruption in both notebooks, and
+5b's "Verification: Our Implementation vs Scikit-Learn" cell printed an unconditional
+checkmark claim without ever running the comparison it claimed. Both fixed: markdown
+cells manually reconstructed (not a blanket regex, to avoid introducing new errors),
+and the verification cell now genuinely runs `WeightedKNN` against scikit-learn and
+prints real agreement/accuracy numbers (both 1.0000 on this split). Re-executed
+end-to-end with zero errors. All acceptance criteria genuinely met; feature ready to
+move to maintained (performance kano, agent-tier gate) pending second-pass review.
