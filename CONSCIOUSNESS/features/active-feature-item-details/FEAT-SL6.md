@@ -28,12 +28,12 @@ mathematical and implementation perspectives.
 ## Theory Acceptance Criteria
 
 ### Convolutional Neural Networks (TASK-SL11)
-- [ ] Discrete convolution derivation with mathematical notation and examples
-- [ ] Backpropagation through convolutional layers (gradient flow)
-- [ ] Pooling layer gradients (max pooling, average pooling)
-- [ ] Weight sharing intuition and sparse connectivity
-- [ ] Receptive field and feature map size calculations
-- [ ] Modern architectures (ResNets, skip connections) motivation
+- [x] Discrete convolution derivation with mathematical notation and examples
+- [x] Backpropagation through convolutional layers (gradient flow) — gradient-checked to 2.3e-10
+- [x] Pooling layer gradients (max pooling, average pooling)
+- [x] Weight sharing intuition and sparse connectivity
+- [x] Receptive field and feature map size calculations
+- [x] Modern architectures (ResNets, skip connections) motivation — derived why the additive identity term keeps the gradient from vanishing
 
 ### Recurrent Neural Networks (TASK-SL13)
 - [ ] Unrolled RNN computation graph and backpropagation through time (BPTT)
@@ -87,3 +87,10 @@ mathematical and implementation perspectives.
 ## Notes
 Six tasks: TASK-SL11-SL16 (three theory, three practical). This feature card documents
 the comprehensive acceptance bar all tasks must collectively meet.
+
+TASK-SL11 (CNN theory, verified 2026-07-13): notebooks/9a_cnn_theory.ipynb covers
+discrete convolution, weight sharing/parameter reduction, receptive field growth,
+backprop through conv and pooling layers (gradient-checked to floating-point
+precision), a from-scratch CNN trained on real MNIST (89.2% test accuracy vs
+88.8% for an sklearn MLP baseline on the same split), and ResNet/skip-connection
+motivation. Remaining five tasks (SL12-SL16) pending; feature stays in_progress.
