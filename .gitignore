@@ -117,3 +117,18 @@ CONSCIOUSNESS/TODO.md
 CONSCIOUSNESS/TODO.version
 CONSCIOUSNESS/autonomous-state.*.json
 CONSCIOUSNESS/active-sessions.json
+
+# stream runtime exhaust (data--stream_exhaust_untracked; distributed by eagle-peak TASK-EGLPK601, 2026-08-05)
+CONSCIOUSNESS/stream/autonomy.jsonl
+CONSCIOUSNESS/stream/bus.jsonl
+CONSCIOUSNESS/stream/character.yaml
+CONSCIOUSNESS/stream/errors.jsonl
+CONSCIOUSNESS/stream/evaluation-sync-queue.jsonl
+CONSCIOUSNESS/stream/header-footer-checks.jsonl
+CONSCIOUSNESS/stream/heal-log.jsonl
+CONSCIOUSNESS/stream/migrations-log.jsonl
+CONSCIOUSNESS/stream/naming-precision-checks.jsonl
+CONSCIOUSNESS/stream/preferences.yaml
+CONSCIOUSNESS/stream/session-health.jsonl
+CONSCIOUSNESS/stream/turns.jsonl
+CONSCIOUSNESS/stream/model-attribution.jsonl
