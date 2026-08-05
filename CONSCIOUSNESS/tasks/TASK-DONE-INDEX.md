@@ -13,3 +13,4 @@ TASK-SL11|Lesson 9a: CNN theory — discrete convolution, backprop through conv 
 TASK-SL12|Lesson 9a: CNN practical — image classification, transfer learning mathematics, NumPy CNN implementation|STORY-SL9|DIRECT-SL1|FEAT-SL6|done-task-item-details/TASK-SL12.md|70h|14
 TASK-SL020|Add multi-class extension (one-vs-rest, one-vs-one) coverage to 4b SVM practical notebook|STORY-SL4|DIRECT-SL1|FEAT-SL1|done-task-item-details/TASK-SL020.md|8h|2
 TASK-SL024|Fix KNN retrieval benchmark methodology and complete FEAT-SL2 verification|STORY-SL5|DIRECT-SL1|FEAT-SL2|done-task-item-details/TASK-SL024.md|6h|2
+TASK-SL025|Remove duplicated inline advisor discipline||||TASK-SL025.md||
