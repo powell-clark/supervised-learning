@@ -19,6 +19,9 @@
     "batch_size": 50
   },
   "telemetry": {
-    "upload": true
+    "upload": true,
+    "endpoint": "https://ap.consciousness.london/api/sync/evaluation-indicator",
+    "scenario_endpoint": "https://ap.consciousness.london/api/sync/evaluation-scenario",
+    "project_id": "SL"
   }
 }
