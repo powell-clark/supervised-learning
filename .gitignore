@@ -132,3 +132,6 @@ CONSCIOUSNESS/stream/preferences.yaml
 CONSCIOUSNESS/stream/session-health.jsonl
 CONSCIOUSNESS/stream/turns.jsonl
 CONSCIOUSNESS/stream/model-attribution.jsonl
+
+# Claude Code session transcripts carry signed thinking blocks — never commit (arXiv:2608.09867)
+chats/
