@@ -16,3 +16,4 @@ TASK-SL032|p2|Uplift Lesson 3a neural networks theory to the curriculum bar|STOR
 TASK-SL033|p2|Convert Lesson 5a KNN theory mathematics to LaTeX and re-verify FEAT-SL2|STORY-SL12|DIRECT-SL1|FEAT-SL9|TASK-SL033.md|||||aBr9u||
 TASK-SL034|p2|Uplift practicals 1b, 2b, 2c, 3b: purge emojis, add mathematical explanations|STORY-SL12|DIRECT-SL1|FEAT-SL9|TASK-SL034.md|||||aC3bO||
 TASK-SL035|p2|Uplift practicals 5b, 6b, 7b, 8b to the practical bar|STORY-SL12|DIRECT-SL1|FEAT-SL9|TASK-SL035.md|||||aDdF2||
+TASK-SL036|p2|Uplift practicals 9b and 9d to the practical bar|STORY-SL12|DIRECT-SL1|FEAT-SL9|TASK-SL036.md|||||aEwbQ||
