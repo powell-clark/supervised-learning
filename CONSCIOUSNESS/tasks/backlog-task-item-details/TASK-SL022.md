@@ -23,3 +23,21 @@ approach.
 - FEAT-SL4 (Lesson 7 — Ensemble Methods theory and practice)
 - notebooks/7a_ensemble_methods_theory.ipynb
 - notebooks/7b_ensemble_methods_practical.ipynb
+
+## Blocked By
+
+TASK-SL027 (Build notebook quality verifier with executable thresholds)
+
+## Verification
+
+```bash
+.venv/bin/python scripts/verify_notebook.py notebooks/7b_ensemble_methods_practical.ipynb --type practical --execute
+```
+Must exit 0 after the additions; the new stacking section must be executed with stored outputs.
+
+## Dispatch
+
+model: sonnet
+effort: medium
+max_turns: 60
+reviewer_model: sonnet

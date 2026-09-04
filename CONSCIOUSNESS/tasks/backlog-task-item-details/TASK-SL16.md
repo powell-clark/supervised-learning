@@ -47,3 +47,21 @@ Pre-trained models: Transformer trained on massive text corpus (language model),
 ## Blocked By
 
 TASK-SL15 (requires understanding from theory notebook)
+
+## Environment note
+
+`transformers`, `datasets` and `sentencepiece` are installed into `.venv` by TASK-SL026 (Rebuild reproducible verification environment for the curriculum). Use a small pre-trained model (`distilbert-base-uncased` or `t5-small`) and a short fine-tune so the notebook executes in under 30 minutes on CPU. If the model or dataset download is unavailable, fall back to a from-scratch encoder-decoder on a synthetic reverse/copy task and state the substitution in the notebook — do not fake a fine-tune.
+
+## Verification
+
+```bash
+.venv/bin/python scripts/verify_notebook.py notebooks/9f_transformer_practical.ipynb --type practical --execute
+```
+Must exit 0: 20+ LaTeX spans, zero emojis, zero marketing words, zero error outputs, references present. Match the structure of `notebooks/9d_rnn_practical.ipynb`.
+
+## Dispatch
+
+model: sonnet
+effort: high
+max_turns: 120
+reviewer_model: sonnet

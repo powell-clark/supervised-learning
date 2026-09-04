@@ -44,4 +44,19 @@ Positional encoding: PE(pos, 2i) = sin(pos/10000^{2i/d}), PE(pos, 2i+1) = cos(po
 
 ## Blocked By
 
-TASK-SL14 (lesson sequencing)
+TASK-SL14 (lesson sequencing) — done
+TASK-SL027 (Build notebook quality verifier with executable thresholds) — the verifier is the acceptance gate
+
+## Verification
+
+```bash
+.venv/bin/python scripts/verify_notebook.py notebooks/9e_transformer_theory.ipynb --type theory --execute
+```
+Must exit 0: 100+ LaTeX spans, zero emojis, zero marketing words, zero error outputs, references present. Paste the JSON report path and the exit code into the closing note. Match the structure of `notebooks/9c_rnn_theory.ipynb` (title cell, anchored table of contents, derivation sections each followed by a small verification cell, from-scratch section with numerical gradient checks, conclusion with key insights and further reading).
+
+## Dispatch
+
+model: sonnet
+effort: high
+max_turns: 120
+reviewer_model: sonnet
