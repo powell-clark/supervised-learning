@@ -24,16 +24,16 @@ and isolation-based approaches (random forests, kernel methods). Special attenti
 paid to handling imbalanced datasets where anomalies are rare.
 
 ## Acceptance Criteria
-- [x] Theory notebook complete with Gaussian anomaly detection and probability threshold selection
-- [x] Mahalanobis distance derivation for multivariate Gaussian modeling
-- [x] Isolation Forest algorithm explained with tree construction strategy
-- [x] One-Class SVM formulation and kernel methods for anomaly detection
-- [x] Imbalanced data problem explained with precision-recall tradeoffs
-- [x] Practical notebook with fraud detection case study (e.g., credit card data)
-- [x] Threshold selection via ROC curve and precision-recall analysis
-- [x] Performance metrics: TPR, FPR, ROC-AUC, PR-AUC for imbalanced data
-- [x] Both notebooks run top-to-bottom in Google Colab with no local setup
-- [x] NumPy implementations and Scikit-learn comparison for reproducibility
+- [x] **AC-1** — Theory notebook complete with Gaussian anomaly detection and probability threshold selection
+- [x] **AC-2** — Mahalanobis distance derivation for multivariate Gaussian modeling
+- [x] **AC-3** — Isolation Forest algorithm explained with tree construction strategy
+- [x] **AC-4** — One-Class SVM formulation and kernel methods for anomaly detection
+- [x] **AC-5** — Imbalanced data problem explained with precision-recall tradeoffs
+- [x] **AC-6** — Practical notebook with fraud detection case study (e.g., credit card data)
+- [x] **AC-7** — Threshold selection via ROC curve and precision-recall analysis
+- [x] **AC-8** — Performance metrics: TPR, FPR, ROC-AUC, PR-AUC for imbalanced data
+- [x] **AC-9** — Both notebooks run top-to-bottom in Google Colab with no local setup
+- [x] **AC-10** — NumPy implementations and Scikit-learn comparison for reproducibility
 
 ## Notes
 TASK-SL9 (theory, verified 2026-07-13): notebooks/8a_anomaly_detection_theory.ipynb

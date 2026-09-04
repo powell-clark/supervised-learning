@@ -26,15 +26,15 @@ This feature ensures comprehensive theory coverage, practical implementation det
 and the NumPy derivation that exposes the algorithm's internal mechanics.
 
 ## Acceptance Criteria
-- [x] Theory notebook complete with maximum margin problem formulation and geometric interpretation
-- [x] Lagrangian dual formulation with KKT conditions and complementary slackness
-- [x] Kernel trick explanation with polynomial, RBF, and linear kernel derivations
-- [x] Soft margin formulation (C parameter) with geometric interpretation
-- [x] Practical notebook with comparison of kernel types on binary classification
-- [x] Hyperparameter tuning via grid search with cross-validation
-- [x] Multi-class extension (one-vs-rest, one-vs-one) explained
-- [x] Both notebooks run top-to-bottom in Google Colab with no local setup
-- [x] NumPy implementation of linear SVM; Scikit-learn comparison
+- [x] **AC-1** — Theory notebook complete with maximum margin problem formulation and geometric interpretation
+- [x] **AC-2** — Lagrangian dual formulation with KKT conditions and complementary slackness
+- [x] **AC-3** — Kernel trick explanation with polynomial, RBF, and linear kernel derivations
+- [x] **AC-4** — Soft margin formulation (C parameter) with geometric interpretation
+- [x] **AC-5** — Practical notebook with comparison of kernel types on binary classification
+- [x] **AC-6** — Hyperparameter tuning via grid search with cross-validation
+- [x] **AC-7** — Multi-class extension (one-vs-rest, one-vs-one) explained
+- [x] **AC-8** — Both notebooks run top-to-bottom in Google Colab with no local setup
+- [x] **AC-9** — NumPy implementation of linear SVM; Scikit-learn comparison
 
 ## Notes
 TASK-SL1 (theory) and TASK-SL2 (practical) are complete. TASK-SL020 (verified 2026-07-13)

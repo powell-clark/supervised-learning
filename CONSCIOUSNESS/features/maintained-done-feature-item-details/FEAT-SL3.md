@@ -24,16 +24,16 @@ well on text and high-dimensional data. The lesson covers the mathematical found
 and practical applications in text classification.
 
 ## Acceptance Criteria
-- [x] Theory notebook complete with Bayes theorem derivation and geometric interpretation
-- [x] Conditional independence assumption explained with worked examples
-- [x] Gaussian Naive Bayes for continuous features with derivation
-- [x] Multinomial Naive Bayes for text classification (bag-of-words)
-- [x] Bernoulli Naive Bayes variant explained
-- [x] Laplace smoothing problem and solution documented
-- [x] Practical notebook with text classification case study (20 Newsgroups subset, 4-class)
-- [x] TF-IDF vectorization with NumPy and Scikit-learn comparison — from-scratch NumPy TF-IDF matches scikit-learn to 2.22e-16
-- [x] Both notebooks run top-to-bottom in Google Colab with no local setup
-- [x] Accuracy, precision, recall, F1 analysis on classification results
+- [x] **AC-1** — Theory notebook complete with Bayes theorem derivation and geometric interpretation
+- [x] **AC-2** — Conditional independence assumption explained with worked examples
+- [x] **AC-3** — Gaussian Naive Bayes for continuous features with derivation
+- [x] **AC-4** — Multinomial Naive Bayes for text classification (bag-of-words)
+- [x] **AC-5** — Bernoulli Naive Bayes variant explained
+- [x] **AC-6** — Laplace smoothing problem and solution documented
+- [x] **AC-7** — Practical notebook with text classification case study (20 Newsgroups subset, 4-class)
+- [x] **AC-8** — TF-IDF vectorization with NumPy and Scikit-learn comparison — from-scratch NumPy TF-IDF matches scikit-learn to 2.22e-16
+- [x] **AC-9** — Both notebooks run top-to-bottom in Google Colab with no local setup
+- [x] **AC-10** — Accuracy, precision, recall, F1 analysis on classification results
 
 ## Notes
 TASK-SL5 (theory, verified 2026-07-13): notebooks/6a_naive_bayes_theory.ipynb covers

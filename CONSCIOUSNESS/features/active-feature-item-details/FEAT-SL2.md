@@ -28,15 +28,15 @@ code, and the from-scratch NumPy derivation that makes the algorithm's mechanics
 transparent.
 
 ## Acceptance Criteria
-- [x] Theory notebook complete with distance metric derivations (Euclidean, Manhattan, Minkowski, cosine similarity)
-- [x] KD-tree construction and nearest-neighbor search algorithm with pseudocode
-- [x] Curse of dimensionality analysis with empirical demonstrations
-- [x] Practical notebook with optimal K selection via k-fold cross-validation
-- [x] Weighted voting schemes (inverse distance, kernel-based) with comparative analysis
-- [x] Benchmarks: KD-tree vs brute force vs ball-tree retrieval performance
-- [x] Both notebooks run top-to-bottom in Google Colab with no local setup
-- [x] NumPy implementation of KD-tree search; Scikit-learn comparison
-- [x] Markdown cells explain learning objectives, algorithm intuition, and result interpretation
+- [x] **AC-1** — Theory notebook complete with distance metric derivations (Euclidean, Manhattan, Minkowski, cosine similarity)
+- [x] **AC-2** — KD-tree construction and nearest-neighbor search algorithm with pseudocode
+- [x] **AC-3** — Curse of dimensionality analysis with empirical demonstrations
+- [x] **AC-4** — Practical notebook with optimal K selection via k-fold cross-validation
+- [x] **AC-5** — Weighted voting schemes (inverse distance, kernel-based) with comparative analysis
+- [x] **AC-6** — Benchmarks: KD-tree vs brute force vs ball-tree retrieval performance
+- [x] **AC-7** — Both notebooks run top-to-bottom in Google Colab with no local setup
+- [x] **AC-8** — NumPy implementation of KD-tree search; Scikit-learn comparison
+- [x] **AC-9** — Markdown cells explain learning objectives, algorithm intuition, and result interpretation
 
 ## Notes
 TASK-SL3 (theory) and TASK-SL4 (practical) were marked done, but the checkboxes

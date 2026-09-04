@@ -1,6 +1,6 @@
 ---
 id: TASK-SL3
-status: in_review
+status: done
 priority: p2
 title: Lesson 5a - K-Nearest Neighbors Theory
 story_id: STORY-SL5

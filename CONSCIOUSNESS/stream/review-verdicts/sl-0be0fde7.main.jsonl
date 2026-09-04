@@ -1,0 +1,1 @@
+{"target_type":"task","target_id":"TASK-SL021","target_title":"Repair duplicate/stale TASK-SL2 detail cards and missing done-task-item-details file","reviewer_type":"agent","reviewer_id":"sl-0be0fde7","verdict":"bypass-approved","reviewed_at":"2026-09-04 20:17:28.640 gmt","note":"auto-close: entity gate is auto-flow (reversibility-derived model, #392)"}

@@ -1,6 +1,6 @@
 id|title|story_ids|directive_id|feature_ids|doc|expected_duration|story_points
 TASK-SL1|Lesson 4a: SVM theory — maximum margin, Lagrangian dual, kernel trick|STORY-SL4|DIRECT-SL1|FEAT-SL1|done-task-item-details/TASK-SL1.md|45h|9
-TASK-SL2|Lesson 4b: SVM practical — kernel comparison and hyperparameter tuning|STORY-SL4|DIRECT-SL1||done-task-item-details/TASK-SL2.md|45h|9
+TASK-SL2|Lesson 4b: SVM practical — kernel comparison and hyperparameter tuning|STORY-SL4|DIRECT-SL1|FEAT-SL1|done-task-item-details/TASK-SL2.md|45h|9
 TASK-SL3|Lesson 5a: KNN theory — distance metrics, KD-tree mathematics, curse of dimensionality|STORY-SL5|DIRECT-SL1|FEAT-SL2|done-task-item-details/TASK-SL3.md|45h|9
 TASK-SL4|Lesson 5b: KNN practical — optimal K selection, weighted voting, KD-tree implementation|STORY-SL5|DIRECT-SL1|FEAT-SL2|done-task-item-details/TASK-SL4.md|45h|9
 TASK-SL5|Lesson 6a: Naive Bayes theory — Bayes theorem, conditional independence, Gaussian/Multinomial/Bernoulli variants|STORY-SL6|DIRECT-SL1|FEAT-SL3|done-task-item-details/TASK-SL5.md|45h|9
@@ -14,3 +14,4 @@ TASK-SL12|Lesson 9a: CNN practical — image classification, transfer learning m
 TASK-SL020|Add multi-class extension (one-vs-rest, one-vs-one) coverage to 4b SVM practical notebook|STORY-SL4|DIRECT-SL1|FEAT-SL1|done-task-item-details/TASK-SL020.md|8h|2
 TASK-SL024|Fix KNN retrieval benchmark methodology and complete FEAT-SL2 verification|STORY-SL5|DIRECT-SL1|FEAT-SL2|done-task-item-details/TASK-SL024.md|6h|2
 TASK-SL025|Remove duplicated inline advisor discipline||||TASK-SL025.md||
+TASK-SL021|Repair duplicate/stale TASK-SL2 detail cards and missing done-task-item-details file||||done-task-item-details/TASK-SL021.md|2h|1

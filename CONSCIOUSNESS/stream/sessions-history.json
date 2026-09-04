@@ -20,7 +20,10 @@
         },
         "usage": {
           "input_tokens": 0,
-          "output_tokens": 0
+          "output_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "cache_creation_1h_input_tokens": 0
         }
       },
       "commit_shas": [],
@@ -79,7 +82,10 @@
         },
         "usage": {
           "input_tokens": 0,
-          "output_tokens": 0
+          "output_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "cache_creation_1h_input_tokens": 0
         }
       },
       "commit_shas": [
@@ -118,7 +124,10 @@
         },
         "usage": {
           "input_tokens": 0,
-          "output_tokens": 0
+          "output_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "cache_creation_1h_input_tokens": 0
         }
       },
       "commit_shas": [],
@@ -144,7 +153,10 @@
         },
         "usage": {
           "input_tokens": 0,
-          "output_tokens": 0
+          "output_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "cache_creation_1h_input_tokens": 0
         }
       },
       "commit_shas": [],
@@ -170,7 +182,10 @@
         },
         "usage": {
           "input_tokens": 0,
-          "output_tokens": 0
+          "output_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "cache_creation_1h_input_tokens": 0
         }
       }
     },
@@ -195,7 +210,10 @@
         },
         "usage": {
           "input_tokens": 0,
-          "output_tokens": 0
+          "output_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "cache_creation_1h_input_tokens": 0
         }
       },
       "commit_shas": [],
@@ -221,7 +239,10 @@
         },
         "usage": {
           "input_tokens": 0,
-          "output_tokens": 0
+          "output_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "cache_creation_1h_input_tokens": 0
         }
       }
     },
@@ -245,7 +266,10 @@
         },
         "usage": {
           "input_tokens": 0,
-          "output_tokens": 0
+          "output_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "cache_creation_1h_input_tokens": 0
         }
       }
     },
@@ -270,9 +294,50 @@
         },
         "usage": {
           "input_tokens": 0,
-          "output_tokens": 0
+          "output_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "cache_creation_1h_input_tokens": 0
         }
-      }
+      },
+      "commit_shas": [
+        "162f569a470db704f6bae4e90e13bb41269b456d",
+        "5c9d2538dd3e4a8401244d1d438ae169fa026653",
+        "f4192fd2e5b4e82ca23dfeda66c8c6b775c68fab",
+        "ee3ea13ca7f435b284fe927af8c05cbf192546e2",
+        "1637e8862ed654e4f77a83f68d93600c9d6e52d2",
+        "6680d676c110e40e805f5e8a51853f2c13d0da90",
+        "52979c2fe49d67eac3624e5a4295e2268b19e551",
+        "fbcec1961ea8682d7c2678b7be51cf2b6c854429",
+        "0319cd2ead3937fe3b098295da2a298fbdc4b0d3",
+        "65329010155b214310fa211a2f73f5ed3aee5494",
+        "b940068cb7b1cc82fea2874ccd421c902c4e389a",
+        "6d46c7425a32d8a07276e3b786f4ef824bebf8ad",
+        "2ce9d298395adcdf907a18f76531dc6cf94f5ccc",
+        "d8a89dba208aca09a2304369319ae3f75da96c3d",
+        "da8c5b0d619f08e4097e528b5d1cd42fa9ee336d",
+        "700ce42ed7e31e3ae4c7b20fca38fe91e701d91c",
+        "b4b7e0eb2f9882e86e214a38c668e880574056dc",
+        "dbb77c86482c293b73aa415dc7394c3ca001e665",
+        "e0592aa6ed397a43969a55fc2b016825bd66f5f6",
+        "7d9fdb399e5259a9b10655498bfb674a5c2c8936",
+        "8ea859cb62e2462df454c0a83f22fc6aebf6385f",
+        "7453ec9793ce427c4488588c4c39d553f04ca77b",
+        "fa0ced2c6ef2e2e505dab50335c3b8bc4565bd33",
+        "9d34d5eb17b14218d7a0978d420cb148203cee79",
+        "cc94cf607cc72a92272dc6e2f1f5608c41ae7fcb",
+        "61ea398812a1e698efc53ed055225304e0a9f7de",
+        "dfdb31edf919bf625fd7547b08b15afeee9f6046",
+        "af83aab1bd7d4326b05ffc818ac4b472ffba32c1",
+        "89cec22233d2dce8ca695c310c80847a070d2357",
+        "bcfe69d24ae51b8e8dd1df495d6c22ac5b18cb77",
+        "8060d6254a2dfebc94bcd3f361a08c53900df3c6",
+        "86e8c462a716e625581aed99f4c973bc77ae3433",
+        "5d783cfacbe2f3eec17b2d28bd54d1c4dd11e034",
+        "496d9311d9102c6636eb49dac0205e7edbeaa897",
+        "1d797285ef6dab355e4097fa2224956d9f19b047"
+      ],
+      "end_reason": "queue_empty"
     },
     {
       "id": "sl-main-4dfdc008",
@@ -294,7 +359,10 @@
         },
         "usage": {
           "input_tokens": 0,
-          "output_tokens": 0
+          "output_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "cache_creation_1h_input_tokens": 0
         }
       },
       "commit_shas": [],
@@ -320,7 +388,10 @@
         },
         "usage": {
           "input_tokens": 0,
-          "output_tokens": 0
+          "output_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "cache_creation_1h_input_tokens": 0
         }
       },
       "commit_shas": [],
@@ -346,7 +417,10 @@
         },
         "usage": {
           "input_tokens": 0,
-          "output_tokens": 0
+          "output_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "cache_creation_1h_input_tokens": 0
         }
       },
       "commit_shas": [],
@@ -372,7 +446,10 @@
         },
         "usage": {
           "input_tokens": 0,
-          "output_tokens": 0
+          "output_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "cache_creation_1h_input_tokens": 0
         }
       },
       "commit_shas": [],
@@ -398,7 +475,10 @@
         },
         "usage": {
           "input_tokens": 0,
-          "output_tokens": 0
+          "output_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "cache_creation_1h_input_tokens": 0
         }
       },
       "commit_shas": [],
@@ -424,7 +504,10 @@
         },
         "usage": {
           "input_tokens": 0,
-          "output_tokens": 0
+          "output_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "cache_creation_1h_input_tokens": 0
         }
       },
       "commit_shas": [],
@@ -450,7 +533,10 @@
         },
         "usage": {
           "input_tokens": 0,
-          "output_tokens": 0
+          "output_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "cache_creation_1h_input_tokens": 0
         }
       },
       "commit_shas": [],
@@ -460,24 +546,373 @@
       "id": "sl-main-e243df2d",
       "prev": "sl-main-861a0905",
       "started": "2026-07-13 11:50:10.850 bst",
-      "ended": null,
+      "ended": "2026-07-13 18:07:08.108 bst",
       "metrics": {
         "autonomous_loops": 7,
         "tasks_completed": [],
-        "commits": 26,
+        "commits": 27,
+        "turns": 0,
+        "human_prompts": 2,
+        "errors": 0,
+        "compactions": 0,
+        "framing_checks_count": 0,
+        "framing_compliance_count": 0,
+        "hooks_latency_ms": {
+          "user-prompt-submit": 34
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "cache_creation_1h_input_tokens": 0
+        }
+      },
+      "commit_shas": [
+        "162f569a470db704f6bae4e90e13bb41269b456d",
+        "5c9d2538dd3e4a8401244d1d438ae169fa026653",
+        "f4192fd2e5b4e82ca23dfeda66c8c6b775c68fab",
+        "ee3ea13ca7f435b284fe927af8c05cbf192546e2",
+        "1637e8862ed654e4f77a83f68d93600c9d6e52d2",
+        "6680d676c110e40e805f5e8a51853f2c13d0da90",
+        "52979c2fe49d67eac3624e5a4295e2268b19e551",
+        "fbcec1961ea8682d7c2678b7be51cf2b6c854429",
+        "0319cd2ead3937fe3b098295da2a298fbdc4b0d3",
+        "65329010155b214310fa211a2f73f5ed3aee5494",
+        "b940068cb7b1cc82fea2874ccd421c902c4e389a",
+        "6d46c7425a32d8a07276e3b786f4ef824bebf8ad",
+        "2ce9d298395adcdf907a18f76531dc6cf94f5ccc",
+        "d8a89dba208aca09a2304369319ae3f75da96c3d",
+        "da8c5b0d619f08e4097e528b5d1cd42fa9ee336d",
+        "700ce42ed7e31e3ae4c7b20fca38fe91e701d91c",
+        "b4b7e0eb2f9882e86e214a38c668e880574056dc",
+        "dbb77c86482c293b73aa415dc7394c3ca001e665",
+        "e0592aa6ed397a43969a55fc2b016825bd66f5f6",
+        "7d9fdb399e5259a9b10655498bfb674a5c2c8936",
+        "8ea859cb62e2462df454c0a83f22fc6aebf6385f",
+        "7453ec9793ce427c4488588c4c39d553f04ca77b",
+        "fa0ced2c6ef2e2e505dab50335c3b8bc4565bd33",
+        "9d34d5eb17b14218d7a0978d420cb148203cee79",
+        "cc94cf607cc72a92272dc6e2f1f5608c41ae7fcb",
+        "61ea398812a1e698efc53ed055225304e0a9f7de",
+        "dfdb31edf919bf625fd7547b08b15afeee9f6046",
+        "af83aab1bd7d4326b05ffc818ac4b472ffba32c1",
+        "89cec22233d2dce8ca695c310c80847a070d2357"
+      ],
+      "end_reason": "queue_empty"
+    },
+    {
+      "id": "sl-main-2d46f25a",
+      "prev": "sl-main-e243df2d",
+      "started": "2026-07-13 18:10:45.344 bst",
+      "ended": "2026-07-13 18:29:01.005 bst",
+      "metrics": {
+        "autonomous_loops": 0,
+        "tasks_completed": [],
+        "commits": 0,
         "turns": 0,
         "human_prompts": 0,
         "errors": 0,
         "compactions": 0,
-        "hooks_latency_ms": {},
+        "framing_checks_count": 0,
+        "framing_compliance_count": 0,
+        "hooks_latency_ms": {
+          "session-init": 346
+        },
         "usage": {
           "input_tokens": 0,
-          "output_tokens": 0
-        },
-        "ralph_loops": null,
-        "framing_checks_count": 0,
-        "framing_compliance_count": 0
+          "output_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "cache_creation_1h_input_tokens": 0
+        }
       }
+    },
+    {
+      "id": "sl-main-262f8436",
+      "prev": "sl-main-2d46f25a",
+      "started": "2026-07-13 18:29:01.005 bst",
+      "ended": "2026-07-13 21:41:23.177 bst",
+      "metrics": {
+        "autonomous_loops": 0,
+        "tasks_completed": [],
+        "commits": 0,
+        "turns": 0,
+        "human_prompts": 0,
+        "errors": 0,
+        "compactions": 0,
+        "framing_checks_count": 0,
+        "framing_compliance_count": 0,
+        "hooks_latency_ms": {
+          "session-init": 231
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "cache_creation_1h_input_tokens": 0
+        }
+      },
+      "commit_shas": [],
+      "end_reason": "queue_empty"
+    },
+    {
+      "id": "sl-main-cfe4d3ef",
+      "prev": "sl-main-262f8436",
+      "started": "2026-07-13 21:41:23.177 bst",
+      "ended": "2026-07-13 21:42:02.078 bst",
+      "metrics": {
+        "autonomous_loops": 0,
+        "tasks_completed": [],
+        "commits": 0,
+        "turns": 0,
+        "human_prompts": 0,
+        "errors": 0,
+        "compactions": 0,
+        "framing_checks_count": 0,
+        "framing_compliance_count": 0,
+        "hooks_latency_ms": {
+          "session-init": 145
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "cache_creation_1h_input_tokens": 0
+        }
+      },
+      "commit_shas": [],
+      "end_reason": "queue_empty"
+    },
+    {
+      "id": "sl-main-bc1250ea",
+      "prev": "sl-main-cfe4d3ef",
+      "started": "2026-07-13 21:42:03.038 bst",
+      "ended": "2026-07-13 21:42:27.677 bst",
+      "metrics": {
+        "autonomous_loops": 0,
+        "tasks_completed": [],
+        "commits": 0,
+        "turns": 0,
+        "human_prompts": 1,
+        "errors": 0,
+        "compactions": 0,
+        "framing_checks_count": 0,
+        "framing_compliance_count": 0,
+        "hooks_latency_ms": {
+          "session-init": 144
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "cache_creation_1h_input_tokens": 0
+        }
+      },
+      "commit_shas": [],
+      "end_reason": "queue_empty"
+    },
+    {
+      "id": "sl-main-329e35dc",
+      "prev": "sl-main-bc1250ea",
+      "started": "2026-07-13 22:21:34.223 bst",
+      "ended": "2026-07-13 22:21:49.185 bst",
+      "metrics": {
+        "autonomous_loops": 0,
+        "tasks_completed": [],
+        "commits": 0,
+        "turns": 0,
+        "human_prompts": 0,
+        "errors": 0,
+        "compactions": 0,
+        "framing_checks_count": 0,
+        "framing_compliance_count": 0,
+        "hooks_latency_ms": {
+          "session-init": 385
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "cache_creation_1h_input_tokens": 0
+        }
+      },
+      "commit_shas": [],
+      "end_reason": "queue_empty"
+    },
+    {
+      "id": "sl-main-c5229658",
+      "prev": "sl-main-329e35dc",
+      "started": "2026-07-13 22:53:02.734 bst",
+      "ended": "2026-07-14 12:09:25.128 bst",
+      "metrics": {
+        "autonomous_loops": 0,
+        "tasks_completed": [],
+        "commits": 0,
+        "turns": 0,
+        "human_prompts": 0,
+        "errors": 0,
+        "compactions": 0,
+        "framing_checks_count": 0,
+        "framing_compliance_count": 0,
+        "hooks_latency_ms": {
+          "session-init": 383
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "cache_creation_1h_input_tokens": 0
+        }
+      }
+    },
+    {
+      "id": "sl-main-dd515a22",
+      "prev": "sl-main-c5229658",
+      "started": "2026-07-14 12:09:25.128 bst",
+      "ended": "2026-07-14 13:13:53.941 bst",
+      "metrics": {
+        "autonomous_loops": 0,
+        "tasks_completed": [],
+        "commits": 0,
+        "turns": 0,
+        "human_prompts": 0,
+        "errors": 0,
+        "compactions": 0,
+        "framing_checks_count": 0,
+        "framing_compliance_count": 0,
+        "hooks_latency_ms": {
+          "session-init": 185
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "cache_creation_1h_input_tokens": 0
+        }
+      }
+    },
+    {
+      "id": "sl-main-e5d3eae3",
+      "prev": "sl-main-dd515a22",
+      "started": "2026-07-14 13:13:53.941 bst",
+      "ended": "2026-07-14 13:23:18.737 bst",
+      "metrics": {
+        "autonomous_loops": 0,
+        "tasks_completed": [],
+        "commits": 0,
+        "turns": 0,
+        "human_prompts": 0,
+        "errors": 0,
+        "compactions": 0,
+        "framing_checks_count": 0,
+        "framing_compliance_count": 0,
+        "hooks_latency_ms": {
+          "session-init": 117
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "cache_creation_1h_input_tokens": 0
+        }
+      },
+      "commit_shas": [],
+      "end_reason": "queue_empty"
+    },
+    {
+      "id": "sl-main-797285d9",
+      "prev": "sl-main-e5d3eae3",
+      "started": "2026-07-21 09:11:03.300 bst",
+      "ended": "2026-07-21 09:11:10.012 bst",
+      "metrics": {
+        "autonomous_loops": 0,
+        "tasks_completed": [],
+        "commits": 0,
+        "turns": 0,
+        "human_prompts": 0,
+        "errors": 0,
+        "compactions": 0,
+        "framing_checks_count": 0,
+        "framing_compliance_count": 0,
+        "hooks_latency_ms": {
+          "session-init": 395
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "cache_creation_1h_input_tokens": 0
+        }
+      }
+    },
+    {
+      "id": "sl-main-797285d9",
+      "prev": "sl-main-797285d9",
+      "started": "2026-07-21 09:11:10.012 bst",
+      "ended": "2026-07-21 09:11:15.819 bst",
+      "metrics": {
+        "autonomous_loops": 0,
+        "tasks_completed": [],
+        "commits": 0,
+        "turns": 0,
+        "human_prompts": 0,
+        "errors": 0,
+        "compactions": 0,
+        "framing_checks_count": 0,
+        "framing_compliance_count": 0,
+        "hooks_latency_ms": {
+          "session-init": 394
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "cache_creation_1h_input_tokens": 0
+        }
+      },
+      "commit_shas": [],
+      "commit_attributions": [],
+      "end_reason": "queue_empty"
+    },
+    {
+      "id": "sl-0be0fde7",
+      "prev": "sl-main-797285d9",
+      "started": "2026-09-04 20:23:47.669 bst",
+      "ended": "2026-09-04 20:23:50.590 bst",
+      "metrics": {
+        "autonomous_loops": 0,
+        "tasks_completed": [],
+        "commits": 0,
+        "turns": 0,
+        "human_prompts": 0,
+        "errors": 0,
+        "compactions": 0,
+        "framing_checks_count": 0,
+        "framing_compliance_count": 0,
+        "hooks_latency_ms": {
+          "session-init": 265
+        },
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 0,
+          "cache_creation_1h_input_tokens": 0
+        }
+      },
+      "commit_shas": [],
+      "commit_attributions": [],
+      "end_reason": "queue_empty"
     }
   ]
 }

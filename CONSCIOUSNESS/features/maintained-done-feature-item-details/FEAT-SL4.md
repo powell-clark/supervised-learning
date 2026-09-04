@@ -24,16 +24,16 @@ and state-of-the-art implementations (gradient boosting, XGBoost). Ensemble meth
 are among the most effective techniques in practical machine learning.
 
 ## Acceptance Criteria
-- [x] Theory notebook complete with bias-variance decomposition and geometric interpretation
-- [x] Bagging algorithm explained with bootstrap sampling analysis
-- [x] Random Forest feature importance and decorrelation strategy
-- [x] AdaBoost algorithm derivation with exponential loss minimization
-- [x] Gradient Boosting framework and residual fitting intuition
-- [x] Stochastic gradient boosting variants explained — TASK-SL8's XGBoost `subsample`/`colsample_bytree` (row/column subsampling per Friedman's 1999 stochastic gradient boosting) explained and tuned via Optuna
-- [x] Practical notebook with XGBoost implementation and hyperparameter interpretation
-- [x] LightGBM vs XGBoost trade-offs and when to use each
-- [x] Hyperparameter tuning via grid search and Bayesian optimization
-- [x] Both notebooks run top-to-bottom in Google Colab with no local setup
+- [x] **AC-1** — Theory notebook complete with bias-variance decomposition and geometric interpretation
+- [x] **AC-2** — Bagging algorithm explained with bootstrap sampling analysis
+- [x] **AC-3** — Random Forest feature importance and decorrelation strategy
+- [x] **AC-4** — AdaBoost algorithm derivation with exponential loss minimization
+- [x] **AC-5** — Gradient Boosting framework and residual fitting intuition
+- [x] **AC-6** — Stochastic gradient boosting variants explained — TASK-SL8's XGBoost `subsample`/`colsample_bytree` (row/column subsampling per Friedman's 1999 stochastic gradient boosting) explained and tuned via Optuna
+- [x] **AC-7** — Practical notebook with XGBoost implementation and hyperparameter interpretation
+- [x] **AC-8** — LightGBM vs XGBoost trade-offs and when to use each
+- [x] **AC-9** — Hyperparameter tuning via grid search and Bayesian optimization
+- [x] **AC-10** — Both notebooks run top-to-bottom in Google Colab with no local setup
 
 ## Notes
 TASK-SL7 (theory, verified 2026-07-13): notebooks/7a_ensemble_methods_theory.ipynb

@@ -1,24 +1,27 @@
 {
   "sessions": {
-    "sl-main-e243df2d": {
+    "0be0fde7-8fb7-4f3b-808a-5fff0727f43c": {
       "assignment_message_id": null,
-      "canonical_id": "e243df2d-ea04-4275-b986-784ec7a8df0b",
-      "conscious_mode": true,
+      "branch": "main",
+      "canonical_id": "0be0fde7-8fb7-4f3b-808a-5fff0727f43c",
+      "conscious_mode": false,
       "context": {
         "adapter": "claude-code",
-        "pane": "%13",
+        "multiplexer": "tmux",
+        "pane": "%24",
         "project": "sl"
       },
       "current_activity": null,
       "current_task": null,
       "identity": null,
-      "last_activity": "2026-07-13T14:24:54.033Z",
+      "last_activity": "2026-09-04T20:19:51.624Z",
       "model": null,
-      "pane_id": null,
-      "role": "bodhisattva",
+      "pane_id": "%24",
+      "role": null,
       "session_type": "cli",
       "specialty": null,
-      "started": "2026-07-13T10:50:10.887Z"
+      "started": "2026-09-04T20:12:41.930Z",
+      "worktree": "/home/powell-clark/projects/auxiliary/supervised-learning"
     }
   }
 }

@@ -1,6 +1,6 @@
 ---
 id: TASK-SL2
-status: in_progress
+status: done
 priority: p2
 title: Lesson 4b - SVM Practical Implementation
 story_id: STORY-SL4

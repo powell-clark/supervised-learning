@@ -1,0 +1,117 @@
+PGPS START: 2026-09-04 20:22:25.014, SESSION ID: sl-0be0fde7 | VERSION: v0.45.47 | SCHEMA: 20260813091041256
+
+ROADMAP:
+
+DIRECTIVES.ACTIVE:
+  [DIRECT-SL1] [in_progress] [p1] ML/AI education — Andrew Ng Machine Learning Course and foundations [STORY-SL4] [STORY-SL5] [STORY-SL6] [STORY-SL7] [STORY-SL8] [STORY-SL9] (1579h22m elapsed, rollup est)
+
+DIRECTIVES.MAINTAINED:
+  [Empty DIRECT-MAINTAINED-DONE-INDEX.md - valid - ~/projects/auxiliary/supervised-learning/CONSCIOUSNESS/directives/DIRECT-MAINTAINED-DONE-INDEX.md]
+
+DIRECTIVES.DONE:
+  [Empty DIRECT-MAINTAINED-DONE-INDEX.md - valid - ~/projects/auxiliary/supervised-learning/CONSCIOUSNESS/directives/DIRECT-MAINTAINED-DONE-INDEX.md]
+
+DIRECTIVES.BACKLOG:
+  [Empty DIRECT-BACKLOG-INDEX.md - valid - ~/projects/auxiliary/supervised-learning/CONSCIOUSNESS/directives/DIRECT-BACKLOG-INDEX.md]
+
+STORIES.ACTIVE:
+  [STORY-SL8] [in_progress] [p2] Anomaly Detection theory and practice [DIRECT-SL1] [TASK-SL9] [TASK-SL10] [FEAT-SL5] (0m elapsed, rollup est)
+
+STORIES.FULFILLED:
+  [STORY-SL6] [fulfilled] Naive Bayes theory and practice [DIRECT-SL1] [TASK-SL5] [TASK-SL6] [FEAT-SL3]
+  [STORY-SL7] [fulfilled] Ensemble Methods theory and practice [DIRECT-SL1] [TASK-SL7] [TASK-SL8] [FEAT-SL4]
+  [STORY-SL4] [fulfilled] Support Vector Machines theory and practice [DIRECT-SL1] [TASK-SL1] [TASK-SL2] [TASK-SL020] [FEAT-SL1]
+
+STORIES.REJECTED:
+  [Empty STORY-FULFILLED-REJECTED-INDEX.md - valid - ~/projects/auxiliary/supervised-learning/CONSCIOUSNESS/stories/STORY-FULFILLED-REJECTED-INDEX.md]
+
+STORIES.BACKLOG:
+  [STORY-SL9] [p1] Deep Learning — CNNs, RNNs, Transformers [DIRECT-SL1] [TASK-SL11] [TASK-SL12] [TASK-SL13] [TASK-SL14] [TASK-SL15] [TASK-SL16] [FEAT-SL6]
+  [STORY-SL5] [p2] K-Nearest Neighbors theory and practice [DIRECT-SL1] [TASK-SL3] [TASK-SL4] [TASK-SL024] [FEAT-SL2]
+
+TASKS.ACTIVE:
+    [TASK-SL13] [in_progress] [p1] Lesson 9b: RNN theory — BPTT derivation, vanishing/exploding gradients, LSTM gates, GRU trade-offs [7] (blocked by TASK-SL12) (unknown)
+  HUMAN:
+    [TASK-SL14] [p1] Lesson 9b: RNN practical — sequence modeling, time series forecasting, NumPy LSTM implementation [7] (blocked by TASK-SL13)
+    [TASK-SL15] [p1] Lesson 9c: Transformer theory — scaled dot-product attention, multi-head attention, positional encoding, self/cross-attention [8] (blocked by TASK-SL14)
+    [TASK-SL16] [p1] Lesson 9c: Transformer practical — sequence-to-sequence, pre-trained model mathematics, NumPy attention mechanism [8] (blocked by TASK-SL15)
+  NEXT:
+    [TASK-SL017] [p3] Autonomous loop stalling on task state transitions
+    [TASK-SL018] [p3] Autonomous loop stalled on task state: TASK-SL3 remains active despite in_review transition
+    [TASK-SL019] [p3] why is consciousness now a scheduled loop
+    [TASK-SL023] [p3] getFeatureKano() only reads FEATURE-ACTIVE-INDEX.md, causing review-gate kano-tier resolution to silently fall back to human gate when a feature's row is removed from active before its verdict is recorded
+    [TASK-SL021] [p3] Repair duplicate/stale TASK-SL2 detail cards and missing done-task-item-details file
+    [TASK-SL022] [p3] Add ensemble combination strategies (voting, averaging, stacking) to Lesson 7
+
+TASKS.DONE:
+  [TASK-SL1] Lesson 4a: SVM theory — maximum margin, Lagrangian dual, kernel trick [STORY-SL4] [DIRECT-SL1] [FEAT-SL1]
+  [TASK-SL2] Lesson 4b: SVM practical — kernel comparison and hyperparameter tuning [STORY-SL4] [DIRECT-SL1] [FEAT-SL1]
+  [TASK-SL3] Lesson 5a: KNN theory — distance metrics, KD-tree mathematics, curse of dimensionality [STORY-SL5] [DIRECT-SL1] [FEAT-SL2]
+  [TASK-SL4] Lesson 5b: KNN practical — optimal K selection, weighted voting, KD-tree implementation [STORY-SL5] [DIRECT-SL1] [FEAT-SL2]
+  [TASK-SL5] Lesson 6a: Naive Bayes theory — Bayes theorem, conditional independence, Gaussian/Multinomial/Bernoulli variants [STORY-SL6] [DIRECT-SL1] [FEAT-SL3]
+  [TASK-SL6] Lesson 6b: Naive Bayes practical — text classification, TF-IDF, Laplace smoothing [STORY-SL6] [DIRECT-SL1] [FEAT-SL3]
+  [TASK-SL7] Lesson 7a: Ensemble Methods theory — bias-variance, bagging, AdaBoost, gradient boosting [STORY-SL7] [DIRECT-SL1] [FEAT-SL4]
+  [TASK-SL8] Lesson 7b: Ensemble Methods practical — XGBoost, LightGBM, hyperparameter tuning [STORY-SL7] [DIRECT-SL1] [FEAT-SL4]
+  [TASK-SL9] Lesson 8a: Anomaly Detection theory — Gaussian modeling, Mahalanobis distance, Isolation Forest, One-Class SVM [STORY-SL8] [DIRECT-SL1] [FEAT-SL5]
+  [TASK-SL10] Lesson 8b: Anomaly Detection practical — fraud detection case study, ROC curve analysis for imbalanced data [STORY-SL8] [DIRECT-SL1] [FEAT-SL5]
+  [TASK-SL11] Lesson 9a: CNN theory — discrete convolution, backprop through conv layers, pooling gradients, weight sharing [STORY-SL9] [DIRECT-SL1] [FEAT-SL6]
+  [TASK-SL12] Lesson 9a: CNN practical — image classification, transfer learning mathematics, NumPy CNN implementation [STORY-SL9] [DIRECT-SL1] [FEAT-SL6]
+  [TASK-SL020] Add multi-class extension (one-vs-rest, one-vs-one) coverage to 4b SVM practical notebook [STORY-SL4] [DIRECT-SL1] [FEAT-SL1]
+  [TASK-SL024] Fix KNN retrieval benchmark methodology and complete FEAT-SL2 verification [STORY-SL5] [DIRECT-SL1] [FEAT-SL2]
+  [TASK-SL025] Remove duplicated inline advisor discipline
+
+TASKS.BACKLOG:
+  [TASK-SL14] [p1] Lesson 9b: RNN practical — sequence modeling, time series forecasting, NumPy LSTM implementation [STORY-SL9] [DIRECT-SL1] [FEAT-SL6]
+  [TASK-SL15] [p1] Lesson 9c: Transformer theory — scaled dot-product attention, multi-head attention, positional encoding, self/cross-attention [STORY-SL9] [DIRECT-SL1] [FEAT-SL6]
+  [TASK-SL16] [p1] Lesson 9c: Transformer practical — sequence-to-sequence, pre-trained model mathematics, NumPy attention mechanism [STORY-SL9] [DIRECT-SL1] [FEAT-SL6]
+  [TASK-SL017] [p3] Autonomous loop stalling on task state transitions
+  [TASK-SL018] [p3] Autonomous loop stalled on task state: TASK-SL3 remains active despite in_review transition
+  [TASK-SL019] [p3] why is consciousness now a scheduled loop
+  [TASK-SL021] [p3] Repair duplicate/stale TASK-SL2 detail cards and missing done-task-item-details file
+  [TASK-SL022] [p3] Add ensemble combination strategies (voting, averaging, stacking) to Lesson 7 [FEAT-SL4]
+  [TASK-SL023] [p3] getFeatureKano() only reads FEATURE-ACTIVE-INDEX.md, causing review-gate kano-tier resolution to silently fall back to human gate when a feature's row is removed from active before its verdict is recorded
+
+TODO:
+  [No todos - TODO.md missing - create at ~/projects/auxiliary/supervised-learning/TODO.md]
+
+FEATURES.ACTIVE:
+  [FEAT-SL2] [in_progress] [p2] [performance] Lesson 5 — K-Nearest Neighbors theory and practice [review-eligible] [untested] [STORY-SL5] [TASK-SL3] [TASK-SL4] [TASK-SL024] (unknown)
+  [FEAT-SL6] [in_progress] [p2] [performance] Lesson 9 — Deep Learning theory and practice [2/6 tasks] [untested] [STORY-SL9] [TASK-SL11] [TASK-SL12] [TASK-SL13] [TASK-SL14] [TASK-SL15] [TASK-SL16] (unknown)
+
+FEATURES.MAINTAINED:
+  [FEAT-SL3] [maintained] Lesson 6 — Naive Bayes theory and practice [STORY-SL6] [TASK-SL5] [TASK-SL6] (open-ended)
+  [FEAT-SL4] [maintained] Lesson 7 — Ensemble Methods theory and practice [STORY-SL7] [TASK-SL7] [TASK-SL8] [TASK-SL022] (open-ended)
+  [FEAT-SL5] [maintained] Lesson 8 — Anomaly Detection theory and practice [STORY-SL8] [TASK-SL9] [TASK-SL10] (open-ended)
+  [FEAT-SL1] [maintained] Lesson 4 — Support Vector Machines theory and practice [STORY-SL4] [TASK-SL1] [TASK-SL2] [TASK-SL020] (open-ended)
+
+FEATURES.DONE:
+  [Empty FEATURE-MAINTAINED-DONE-INDEX.md - valid - ~/projects/auxiliary/supervised-learning/CONSCIOUSNESS/features/FEATURE-MAINTAINED-DONE-INDEX.md]
+
+FEATURES.BACKLOG:
+  [Empty FEATURE-BACKLOG-INDEX.md - valid - ~/projects/auxiliary/supervised-learning/CONSCIOUSNESS/features/FEATURE-BACKLOG-INDEX.md]
+
+GIT:
+  branch:main changes:26 authored (+18 plugin, +2 generated) ahead:0 behind:1 @a6bfdd4
+
+UNIVERSE:
+  sl-cc-0be0fde7-%24 [idle]
+
+FRESHNESS:
+  never verified:
+  [FEAT-SL2] [untested]
+  [FEAT-SL6] [untested]
+
+REVIEWS:
+  [REVIEW-SL5] TASK-SL025 — Remove duplicated inline advisor discipline: bypass-approved (eglpk-661c8eec)
+  [REVIEW-CCC049] FEAT-SL2: agent-rejected (independent-review-agent-a5c6cb3189e6713e7)
+  [REVIEW-CCC048] STORY-SL4: pending-review (sl-main-e243df2d)
+  [REVIEW-CCC047] FEAT-SL1: pending-review (sl-main-e243df2d)
+  [REVIEW-CCC046] FEAT-SL1: agent-approved (independent-review-agent-a7f46f4f245d8dc2b)
+  [REVIEW-CCC045] TASK-SL024 — Fix KNN retrieval benchmark methodology and complete FEAT-SL2 verification: bypass-approved (sl-main-e243df2d)
+  [REVIEW-CCC044] TASK-SL024 — Fix KNN retrieval benchmark methodology and complete FEAT-SL2 verification: auto-approved (sl-main-e243df2d)
+  [REVIEW-CCC043] TASK-SL020 — Add multi-class extension (one-vs-rest, one-vs-one) coverage to 4b SVM practical notebook: bypass-approved (sl-main-e243df2d)
+  … 38 earlier verdict(s) in reviews/REVIEW-INDEX.md
+CURRENT:
+  [TASK-SL13] in_progress
+
+ PGPS SCRIPT OUTPUT END: 2026-09-04 20:22:25.078, SESSION ID: sl-0be0fde7, Duration: 63ms
