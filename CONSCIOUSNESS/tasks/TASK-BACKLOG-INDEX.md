@@ -11,3 +11,4 @@ TASK-SL027|p1|Build notebook quality verifier with executable thresholds|STORY-S
 TASK-SL028|p1|Build autonomous syllabus run orchestrator with model-aware dispatch|STORY-SL10|DIRECT-SL1|FEAT-SL7|TASK-SL028.md|||||a6a8H||
 TASK-SL029|p2|Sync feature cards, code_paths and FEAT-SL6 RNN checkboxes|STORY-SL10|DIRECT-SL1|FEAT-SL7|TASK-SL029.md|||||a7Qxn||
 TASK-SL030|p2|Lesson 0b: Linear regression practical — regularised regression, diagnostics, London housing|STORY-SL11|DIRECT-SL1|FEAT-SL8|TASK-SL030.md|||||a80SZ||
+TASK-SL031|p2|Rewrite Lesson 0a linear regression theory to the curriculum bar|STORY-SL12|DIRECT-SL1|FEAT-SL9|TASK-SL031.md|||||a9ZUH||
