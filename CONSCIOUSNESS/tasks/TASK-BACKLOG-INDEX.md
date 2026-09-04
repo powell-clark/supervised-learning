@@ -18,3 +18,4 @@ TASK-SL034|p2|Uplift practicals 1b, 2b, 2c, 3b: purge emojis, add mathematical e
 TASK-SL035|p2|Uplift practicals 5b, 6b, 7b, 8b to the practical bar|STORY-SL12|DIRECT-SL1|FEAT-SL9|TASK-SL035.md|||||aDdF2||
 TASK-SL036|p2|Uplift practicals 9b and 9d to the practical bar|STORY-SL12|DIRECT-SL1|FEAT-SL9|TASK-SL036.md|||||aEwbQ||
 TASK-SL037|p2|Execute every notebook end-to-end and store outputs|STORY-SL12|DIRECT-SL1|FEAT-SL9|TASK-SL037.md|||||aF9FT||
+TASK-SL038|p3|Regenerate README as the corpus index|STORY-SL10|DIRECT-SL1|FEAT-SL7|TASK-SL038.md|||||aGIet||
