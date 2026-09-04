@@ -14,3 +14,4 @@ TASK-SL030|p2|Lesson 0b: Linear regression practical — regularised regression,
 TASK-SL031|p2|Rewrite Lesson 0a linear regression theory to the curriculum bar|STORY-SL12|DIRECT-SL1|FEAT-SL9|TASK-SL031.md|||||a9ZUH||
 TASK-SL032|p2|Uplift Lesson 3a neural networks theory to the curriculum bar|STORY-SL12|DIRECT-SL1|FEAT-SL9|TASK-SL032.md|||||aApVd||
 TASK-SL033|p2|Convert Lesson 5a KNN theory mathematics to LaTeX and re-verify FEAT-SL2|STORY-SL12|DIRECT-SL1|FEAT-SL9|TASK-SL033.md|||||aBr9u||
+TASK-SL034|p2|Uplift practicals 1b, 2b, 2c, 3b: purge emojis, add mathematical explanations|STORY-SL12|DIRECT-SL1|FEAT-SL9|TASK-SL034.md|||||aC3bO||
