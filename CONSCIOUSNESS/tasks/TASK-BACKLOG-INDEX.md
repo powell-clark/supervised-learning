@@ -9,3 +9,4 @@ TASK-SL023|p3|getFeatureKano() only reads FEATURE-ACTIVE-INDEX.md, causing revie
 TASK-SL026|p1|Rebuild reproducible verification environment for the curriculum|STORY-SL10|DIRECT-SL1|FEAT-SL7|TASK-SL026.md|||||a4Woa||
 TASK-SL027|p1|Build notebook quality verifier with executable thresholds|STORY-SL10|DIRECT-SL1|FEAT-SL7|TASK-SL027.md|||||a5CYz||
 TASK-SL028|p1|Build autonomous syllabus run orchestrator with model-aware dispatch|STORY-SL10|DIRECT-SL1|FEAT-SL7|TASK-SL028.md|||||a6a8H||
+TASK-SL029|p2|Sync feature cards, code_paths and FEAT-SL6 RNN checkboxes|STORY-SL10|DIRECT-SL1|FEAT-SL7|TASK-SL029.md|||||a7Qxn||
