@@ -4,7 +4,7 @@
       "assignment_message_id": null,
       "branch": "main",
       "canonical_id": "0be0fde7-8fb7-4f3b-808a-5fff0727f43c",
-      "conscious_mode": false,
+      "conscious_mode": true,
       "context": {
         "adapter": "claude-code",
         "multiplexer": "tmux",
@@ -14,7 +14,7 @@
       "current_activity": null,
       "current_task": null,
       "identity": null,
-      "last_activity": "2026-09-04T20:19:51.624Z",
+      "last_activity": "2026-09-04T20:45:18.024Z",
       "model": null,
       "pane_id": "%24",
       "role": null,

@@ -15,3 +15,4 @@ TASK-SL020|Add multi-class extension (one-vs-rest, one-vs-one) coverage to 4b SV
 TASK-SL024|Fix KNN retrieval benchmark methodology and complete FEAT-SL2 verification|STORY-SL5|DIRECT-SL1|FEAT-SL2|done-task-item-details/TASK-SL024.md|6h|2
 TASK-SL025|Remove duplicated inline advisor discipline||||TASK-SL025.md||
 TASK-SL021|Repair duplicate/stale TASK-SL2 detail cards and missing done-task-item-details file||||done-task-item-details/TASK-SL021.md|2h|1
+TASK-SL13|Lesson 9b: RNN theory — BPTT derivation, vanishing/exploding gradients, LSTM gates, GRU trade-offs|STORY-SL9|DIRECT-SL1|FEAT-SL6|done-task-item-details/TASK-SL13.md|70h|14
