@@ -23,5 +23,25 @@
     "endpoint": "https://ap.consciousness.london/api/sync/evaluation-indicator",
     "scenario_endpoint": "https://ap.consciousness.london/api/sync/evaluation-scenario",
     "project_id": "SL"
+  },
+  "review_gates": {
+    "entity_overrides": {
+      "feature": {
+        "requires": "agent",
+        "gate": "hard",
+        "min_agent_reviews": 1,
+        "kano_overrides": {
+          "must-have": { "requires": "agent", "gate": "hard", "min_agent_reviews": 1 },
+          "performance": { "requires": "agent", "gate": "hard", "min_agent_reviews": 1 },
+          "delighter": { "requires": "agent", "gate": "warn", "min_agent_reviews": 1 },
+          "nice-to-have": { "requires": "agent", "gate": "warn", "min_agent_reviews": 1 }
+        }
+      }
+    }
+  },
+  "self_healing": {
+    "enabled": true,
+    "auto_apply": true,
+    "allowlist": ["fk-asymmetry", "schema-migrations", "lifecycle-reconcile", "misplaced-cards"]
   }
 }
