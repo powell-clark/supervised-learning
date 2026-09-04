@@ -13,3 +13,4 @@ TASK-SL029|p2|Sync feature cards, code_paths and FEAT-SL6 RNN checkboxes|STORY-S
 TASK-SL030|p2|Lesson 0b: Linear regression practical — regularised regression, diagnostics, London housing|STORY-SL11|DIRECT-SL1|FEAT-SL8|TASK-SL030.md|||||a80SZ||
 TASK-SL031|p2|Rewrite Lesson 0a linear regression theory to the curriculum bar|STORY-SL12|DIRECT-SL1|FEAT-SL9|TASK-SL031.md|||||a9ZUH||
 TASK-SL032|p2|Uplift Lesson 3a neural networks theory to the curriculum bar|STORY-SL12|DIRECT-SL1|FEAT-SL9|TASK-SL032.md|||||aApVd||
+TASK-SL033|p2|Convert Lesson 5a KNN theory mathematics to LaTeX and re-verify FEAT-SL2|STORY-SL12|DIRECT-SL1|FEAT-SL9|TASK-SL033.md|||||aBr9u||
