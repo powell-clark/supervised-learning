@@ -115,6 +115,11 @@ reports/verify/*
 .claude/universe-*.txt
 .claude/universe-snapshot.json
 .claude/settings.local.json
+.claude/settings.local.json.bak.*
+.claude/autonomous-state.*.json
+.claude/loop-exit.*.json
+.claude/loop-terminated.*.json
+.claude/continuation-brief.md
 
 # Consciousness session runtime files
 CONSCIOUSNESS/.TODO.lock
@@ -139,6 +144,26 @@ CONSCIOUSNESS/stream/preferences.yaml
 CONSCIOUSNESS/stream/session-health.jsonl
 CONSCIOUSNESS/stream/turns.jsonl
 CONSCIOUSNESS/stream/model-attribution.jsonl
+
+# local additions pending eglpk601 sync (TASK-SL043): active-sessions.json moved
+# under stream/ but the distributed pattern above still names the old root path;
+# these are further stream exhaust files the distributed list has not caught up to.
+CONSCIOUSNESS/stream/active-sessions.json
+CONSCIOUSNESS/stream/sessions.jsonl
+CONSCIOUSNESS/stream/sessions-history.json
+CONSCIOUSNESS/stream/cursors/
+CONSCIOUSNESS/stream/evaluations/
+CONSCIOUSNESS/stream/daily.jsonl
+CONSCIOUSNESS/stream/command-usage.jsonl
+CONSCIOUSNESS/stream/hooks.jsonl
+CONSCIOUSNESS/stream/framing-checks.jsonl
+CONSCIOUSNESS/stream/protect-events.jsonl
+CONSCIOUSNESS/stream/subagent-spawns.jsonl
+CONSCIOUSNESS/pgps-snapshots/
+
+# Generated monitoring-notebook runtime output (not curriculum content)
+monitoring/
+notebooks/temp_model.json
 
 # Claude Code session transcripts carry signed thinking blocks — never commit (arXiv:2608.09867)
 chats/
