@@ -29,6 +29,17 @@ Only 5 of 22 notebooks store executed outputs; the rest are unexecuted code
 a reader has to trust. Lessons 1a, 2a, 4a, 6a, 7a, 8a, 9a, 9c already meet
 the theory bar.
 
+**Correction (2026-09-05, TASK-SL027).** The spans column above was produced
+by `text.count('$') // 2`, which counts a `$$...$$` display block as two
+spans instead of one. `scripts/verify_notebook.py` tokenises instead (a
+`$$...$$` block is a single span, matching its own pre-mortem's "tokenise,
+do not count characters" requirement), and its true count equals
+`naive - display_dollar_blocks` for every row above — exact, not
+approximate: 0a=17, 1b=12, 2b=18, 2c=0, 3a=6, 3b=0, 5a=1, 5b=0, 6b=14, 7b=3,
+8b=3, 9b=8, 9d=9. The uplift tasks (SL030-036) should target the corrected
+figures against the same 100/20 bar, not the naive ones. The emoji column is
+unaffected and reproduces exactly under the new verifier.
+
 ## Acceptance Criteria
 
 - [ ] 0a, 3a and 5a each reach 100+ LaTeX spans with a numerically-checked from-scratch implementation and zero emojis
