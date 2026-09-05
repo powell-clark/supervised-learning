@@ -19,3 +19,4 @@ TASK-SL13|Lesson 9b: RNN theory — BPTT derivation, vanishing/exploding gradien
 TASK-SL14|Lesson 9b: RNN practical — sequence modeling, time series forecasting, NumPy LSTM implementation|STORY-SL9|DIRECT-SL1|FEAT-SL6|done-task-item-details/TASK-SL14.md|70h|14
 TASK-SL026|Rebuild reproducible verification environment for the curriculum|STORY-SL10|DIRECT-SL1|FEAT-SL7|done-task-item-details/TASK-SL026.md|8h|2
 TASK-SL027|Build notebook quality verifier with executable thresholds|STORY-SL10|DIRECT-SL1|FEAT-SL7|done-task-item-details/TASK-SL027.md|16h|3
+TASK-SL028|Build autonomous syllabus run orchestrator with model-aware dispatch|STORY-SL10|DIRECT-SL1|FEAT-SL7|done-task-item-details/TASK-SL028.md|16h|3
