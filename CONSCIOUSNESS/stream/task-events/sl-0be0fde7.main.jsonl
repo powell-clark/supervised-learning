@@ -4,3 +4,6 @@
 {"schema_version":1,"event":"status-change","task_id":"TASK-SL026","from":"in_review","to":"done","timestamp":"2026-09-05 03:17:09.596 bst","session_id":"sl-0be0fde7","canonical_id":"0be0fde7-8fb7-4f3b-808a-5fff0727f43c","branch":"main"}
 {"schema_version":1,"event":"status-change","task_id":"TASK-SL027","from":"backlog","to":"in_progress","timestamp":"2026-09-05 03:21:46.790 bst","session_id":"sl-0be0fde7","canonical_id":"0be0fde7-8fb7-4f3b-808a-5fff0727f43c","branch":"main"}
 {"task_id":"TASK-SL027","event":"claimed","timestamp":"2026-09-05 03:21:49.206 bst","session_id":"sl-0be0fde7","canonical_id":"0be0fde7-8fb7-4f3b-808a-5fff0727f43c","branch":"main"}
+{"schema_version":1,"event":"status-change","task_id":"TASK-SL027","from":"in_progress","to":"in_review","timestamp":"2026-09-05 03:55:19.515 bst","session_id":"sl-0be0fde7","canonical_id":"0be0fde7-8fb7-4f3b-808a-5fff0727f43c","branch":"main"}
+{"task_id":"TASK-SL027","event":"released","reason":"status-change","timestamp":"2026-09-05 03:55:19.600 bst","session_id":"sl-0be0fde7","canonical_id":"0be0fde7-8fb7-4f3b-808a-5fff0727f43c","branch":"main"}
+{"schema_version":1,"event":"status-change","task_id":"TASK-SL027","from":"in_review","to":"done","timestamp":"2026-09-05 03:55:45.200 bst","session_id":"sl-0be0fde7","canonical_id":"0be0fde7-8fb7-4f3b-808a-5fff0727f43c","branch":"main"}
