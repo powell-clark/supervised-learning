@@ -26,3 +26,4 @@ TASK-SL031|Rewrite Lesson 0a linear regression theory to the curriculum bar|STOR
 TASK-SL032|Uplift Lesson 3a neural networks theory to the curriculum bar|STORY-SL12|DIRECT-SL1|FEAT-SL9|done-task-item-details/TASK-SL032.md|45h|9
 TASK-SL033|Convert Lesson 5a KNN theory mathematics to LaTeX and re-verify FEAT-SL2|STORY-SL12|DIRECT-SL1|FEAT-SL9|done-task-item-details/TASK-SL033.md|30h|6
 TASK-SL034|Uplift practicals 1b, 2b, 2c, 3b: purge emojis, add mathematical explanations|STORY-SL12|DIRECT-SL1|FEAT-SL9|done-task-item-details/TASK-SL034.md|24h|5
+TASK-SL035|Uplift practicals 5b, 6b, 7b, 8b to the practical bar|STORY-SL12|DIRECT-SL1|FEAT-SL9|done-task-item-details/TASK-SL035.md|24h|5
