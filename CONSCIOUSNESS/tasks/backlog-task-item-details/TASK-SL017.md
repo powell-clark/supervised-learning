@@ -2,6 +2,8 @@
 
 > **Needs review:** the agent created this task during real-time validation and is uncertain about scope or priority. Operator should review and re-tier as appropriate.
 
+> **Relocated 2026-09-05:** this is a consciousness-plugin loop bug, not supervised-learning content — filed as TASK-CCC31368 in the consciousness repo per operator ruling that loop-behaviour observations go to CCC, not a consumer repo. Left open here for the operator to close or keep as a local pointer.
+
 
 ## Context
 

@@ -2,6 +2,8 @@
 
 > **Needs review:** the agent created this task during real-time validation and is uncertain about scope or priority. Operator should review and re-tier as appropriate.
 
+> **Mis-filed 2026-09-05:** created by mistake — `append-task-cli.js` resolves its target repo from the shell's process cwd rather than a `--repo` flag (no such flag exists), and this session's cwd was supervised-learning, not the intended consciousness repo. The intended filing landed correctly as TASK-CCC31368. This card duplicates TASK-SL017 and is not supervised-learning content; cancellation is operator-only tonight, so it is left here annotated rather than removed.
+
 ## Context
 
 Relocated from supervised-learning TASK-SL017 (filed 2026-07-01 via /consciousness:issue, issue:XMkIsoebnw6MO0QM8oH0V, transcript chats/claude-code/2026-07-01/session-835d9f0b.jsonl). Never triaged in the SL repo; belongs in CCC per operator ruling that loop-behaviour observations go to CCC, not a consumer repo.
