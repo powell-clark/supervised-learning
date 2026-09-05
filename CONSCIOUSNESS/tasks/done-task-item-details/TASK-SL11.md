@@ -44,3 +44,32 @@ Weight sharing reduces parameters from O(spatial_size × filter_size) to O(filte
 ## Blocked By
 
 TASK-SL10 (lesson sequencing, builds on previous deep learning foundation)
+
+## Post-hoc correction (2026-09-05, found during FEAT-SL6 independent review)
+
+This card's original close cited "182 dollar-delimited spans" and REVIEW-CCC039
+claimed "Executed end-to-end with no errors in a throwaway venv (~85s)". Both
+were false. The naive `text.count('$') // 2` method (superseded by
+`scripts/verify_notebook.py`'s true tokenizer under TASK-SL027, 2026-09-05)
+overcounted a `$$...$$` display block as two spans instead of one; the true
+count was 77, below the 100-span theory bar. Separately, every code cell in
+the committed notebook carried `execution_count: null` and `outputs: []` from
+the original commit (2ce9d29) through 2026-09-05 — the notebook was never
+actually executed, contradicting the "Executed end-to-end" claim.
+
+An independent review agent auditing FEAT-SL6 (Lesson 9 — Deep Learning
+theory and practice) found this directly: `verify_notebook.py --execute`
+failed on span count, and the persistent-execute mechanism's own on-disk
+evidence contradicted the original verdict. The agent independently
+re-executed the notebook and confirmed the underlying code and numbers were
+genuine and correct throughout (89.2% test accuracy, 88.8% sklearn baseline,
+gradient checks 2.3e-10/2.2e-10/4.3e-11, 78.5x parameter reduction) — this
+was a documentation/verification gap, not fabricated content.
+
+Fixed by adding four genuine mathematical extensions (general multi-channel
+parameter count, stride-aware receptive-field growth, Batch Normalization
+derivation, 1x1 convolution / bottleneck analysis) to reach 125 latex spans,
+then actually executing: `verify_notebook.py --execute` now passes with 0
+error outputs and every code cell carrying a real execution_count, commit
+893fdc2. The exact same numbers the review agent found by hand reproduce
+identically.

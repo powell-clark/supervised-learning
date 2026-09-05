@@ -95,12 +95,19 @@ mathematical and implementation perspectives.
 Six tasks: TASK-SL11-SL16 (three theory, three practical). This feature card documents
 the comprehensive acceptance bar all tasks must collectively meet.
 
-TASK-SL11 (CNN theory, verified 2026-07-13): notebooks/9a_cnn_theory.ipynb covers
+TASK-SL11 (CNN theory, verified 2026-07-13, corrected 2026-09-05): notebooks/9a_cnn_theory.ipynb covers
 discrete convolution, weight sharing/parameter reduction, receptive field growth,
 backprop through conv and pooling layers (gradient-checked to floating-point
 precision), a from-scratch CNN trained on real MNIST (89.2% test accuracy vs
 88.8% for an sklearn MLP baseline on the same split), and ResNet/skip-connection
-motivation.
+motivation. **Correction (2026-09-05):** an independent review of this feature
+found the original 2026-07-13 close never actually executed this notebook
+(execution_count null on every cell since commit) despite REVIEW-CCC039
+claiming otherwise, and its span count (77, under the corrected tokenizer) was
+below the 100-span theory bar. Fixed by adding Batch Normalization, 1x1
+convolution/bottleneck, general multi-channel parameter count, and
+stride-aware receptive-field derivations (125 spans), then genuinely
+executing — see TASK-SL11.md's post-hoc correction note and commit 893fdc2.
 
 TASK-SL12 (CNN practical, verified 2026-07-13): notebooks/9b_cnn_practical.ipynb
 (30 cells) trains a CIFAR_CNN PyTorch model (156,074 params, 15 epochs on 4000
