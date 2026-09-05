@@ -12,7 +12,10 @@ acceptance_criteria:
   - Includes decision tree analysis and ensemble combination strategies (voting, averaging, stacking)
   - Markdown cells document learning objectives, key formulas, and interpretation of results
 stories: [STORY-SL7]
-tasks: [TASK-SL7,TASK-SL8]
+tasks: [TASK-SL7,TASK-SL8,TASK-SL022]
+code_paths:
+  - notebooks/7a_ensemble_methods_theory.ipynb
+  - notebooks/7b_ensemble_methods_practical.ipynb
 ---
 
 # FEAT-SL4: Lesson 7 — Ensemble Methods
@@ -54,7 +57,10 @@ notebook covers stacking or an explicit VotingClassifier, since it is
 conceptually distinct from bagging/boosting (a meta-learner trained on
 out-of-fold base-model predictions) and was not in either task's own detail
 card. Filed TASK-SL022 for this rather than retrofitting it into an
-already-substantial pair of notebooks.
+already-substantial pair of notebooks. (2026-09-05, TASK-SL029: TASK-SL022
+was already linked on this card's FEATURE-MAINTAINED-DONE-INDEX.md row but
+missing from this card's own `tasks:` frontmatter — added above so the two
+agree.)
 
 An independent agent review (blind to this session's summary) re-executed the
 from-scratch AdaBoost standalone, confirmed the 97.4% accuracy claim exactly,

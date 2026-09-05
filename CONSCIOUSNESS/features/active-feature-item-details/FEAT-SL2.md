@@ -13,6 +13,9 @@ acceptance_criteria:
   - Markdown cells document learning objectives, key formulas, and interpretation of results
 stories: [STORY-SL5]
 tasks: [TASK-SL3,TASK-SL4]
+code_paths:
+  - notebooks/5a_k_nearest_neighbors_theory.ipynb
+  - notebooks/5b_knn_practical.ipynb
 ---
 
 # FEAT-SL2: Lesson 5 — K-Nearest Neighbors

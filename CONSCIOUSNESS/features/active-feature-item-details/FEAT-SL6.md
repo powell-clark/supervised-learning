@@ -15,6 +15,13 @@ acceptance_criteria:
   - Markdown cells document learning objectives, key formulas, and interpretation of results
 stories: [STORY-SL9]
 tasks: [TASK-SL11,TASK-SL12,TASK-SL13,TASK-SL14,TASK-SL15,TASK-SL16]
+code_paths:
+  - notebooks/9a_cnn_theory.ipynb
+  - notebooks/9b_cnn_practical.ipynb
+  - notebooks/9c_rnn_theory.ipynb
+  - notebooks/9d_rnn_practical.ipynb
+  - notebooks/9e_transformer_theory.ipynb
+  - notebooks/9f_transformer_practical.ipynb
 ---
 
 # FEAT-SL6: Lesson 9 — Deep Learning
@@ -36,11 +43,11 @@ mathematical and implementation perspectives.
 - [x] Modern architectures (ResNets, skip connections) motivation — derived why the additive identity term keeps the gradient from vanishing
 
 ### Recurrent Neural Networks (TASK-SL13)
-- [ ] Unrolled RNN computation graph and backpropagation through time (BPTT)
-- [ ] Vanishing gradient problem with empirical demonstration
-- [ ] Long Short-Term Memory (LSTM) gate derivations and intuition
-- [ ] Gated Recurrent Unit (GRU) as LSTM simplification
-- [ ] Exploding gradient problem and gradient clipping solution
+- [x] Unrolled RNN computation graph and backpropagation through time (BPTT) — chain-rule BPTT derived and cross-checked against finite-difference on a 3-step example
+- [x] Vanishing gradient problem with empirical demonstration — measured gradient shrinking ~1e36x over 120 steps on an untrained network
+- [x] Long Short-Term Memory (LSTM) gate derivations and intuition — full input/forget/output gate equations derived, "constant error carousel" explained
+- [x] Gated Recurrent Unit (GRU) as LSTM simplification — full equations derived; parameter-count check confirms GRU uses exactly 75.0% of LSTM's parameters at matching D,H
+- [x] Exploding gradient problem and gradient clipping solution — spectral-radius>1 case measured, clip-by-norm implemented and demonstrated
 - [ ] Bidirectional RNNs explained
 
 ### Transformers (TASK-SL15)
@@ -62,12 +69,12 @@ mathematical and implementation perspectives.
 - [x] PyTorch comparison for reproducibility
 
 ### RNN Practical (TASK-SL14)
-- [ ] Time series forecasting (e.g., stock prices, temperature)
+- [x] Time series forecasting (e.g., stock prices, temperature) — Box & Jenkins airline passengers (1949-1960), one-month-ahead and 6-month-ahead encoder-decoder forecasts
 - [ ] Text sequence modeling (character or word level)
 - [ ] LSTM vs GRU performance comparison
-- [ ] Sequence length impact on training and prediction
-- [ ] NumPy LSTM implementation
-- [ ] PyTorch sequence model comparison
+- [x] Sequence length impact on training and prediction — window length (6/12/24), hidden size (8/32) and learning rate (0.005/0.02) all swept with trained results
+- [x] NumPy LSTM implementation — reused 9c's gradient-checked `LSTMCell`, trained with its own BPTT (test MAE=68.35, RMSE=78.85)
+- [x] PyTorch sequence model comparison — weight-copied NumPy/PyTorch equivalence check, max abs difference 2.8e-17 on identical input
 
 ### Transformer Practical (TASK-SL16)
 - [ ] Sequence-to-sequence task (e.g., machine translation, summarization)
@@ -101,5 +108,21 @@ CIFAR-10 images fetched via fetch_openml('CIFAR_10_small', ...)), fine-tunes a
 frozen-backbone ResNet-18 (1200 images, 5 epochs), visualizes learned filters and
 activations, and reproduces 9a's Conv2D/MaxPool2D inline for a NumPy-vs-PyTorch
 correctness comparison on a 500/150-image CIFAR-10 subset. Executed end-to-end
-without errors (1m52s). Remaining four tasks (SL13-SL16, RNN and Transformer
+without errors (1m52s). Remaining two tasks (SL15-SL16, Transformer
 theory/practical) pending; feature stays in_progress.
+
+TASK-SL13/TASK-SL14 (RNN theory and practical, verified and ticked
+2026-09-05, TASK-SL029): three criteria — Bidirectional RNNs explained, Text
+sequence modeling (character or word level), and LSTM vs GRU performance
+comparison — are left unticked because notebooks/9c_rnn_theory.ipynb and
+notebooks/9d_rnn_practical.ipynb as shipped do not cover them (9c covers
+vanilla RNN/LSTM/GRU derivations and gradient behaviour but not
+bidirectionality; 9d compares RNN vs LSTM on numeric time series only, no
+text and no LSTM-vs-GRU run). TASK-SL036 (Uplift practicals 9b and 9d to
+the practical bar) already carries all three as its own acceptance
+criteria, so nothing here is silently dropped — see that card.
+
+TASK-SL15/TASK-SL16 (Transformer theory and practical) remain pending;
+`code_paths` above forward-references their intended filenames
+(9e_transformer_theory.ipynb, 9f_transformer_practical.ipynb), which do
+not exist yet.

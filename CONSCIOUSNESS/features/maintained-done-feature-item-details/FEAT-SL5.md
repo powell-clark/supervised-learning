@@ -13,6 +13,9 @@ acceptance_criteria:
   - Markdown cells document learning objectives, key formulas, and interpretation of results
 stories: [STORY-SL8]
 tasks: [TASK-SL9,TASK-SL10]
+code_paths:
+  - notebooks/8a_anomaly_detection_theory.ipynb
+  - notebooks/8b_anomaly_detection_practical.ipynb
 ---
 
 # FEAT-SL5: Lesson 8 — Anomaly Detection

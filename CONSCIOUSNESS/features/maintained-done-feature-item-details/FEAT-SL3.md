@@ -13,6 +13,9 @@ acceptance_criteria:
   - Markdown cells document learning objectives, key formulas, and interpretation of results
 stories: [STORY-SL6]
 tasks: [TASK-SL5,TASK-SL6]
+code_paths:
+  - notebooks/6a_naive_bayes_theory.ipynb
+  - notebooks/6b_naive_bayes_practical.ipynb
 ---
 
 # FEAT-SL3: Lesson 6 — Naive Bayes

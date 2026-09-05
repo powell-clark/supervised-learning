@@ -13,6 +13,9 @@ acceptance_criteria:
   - Markdown cells document learning objectives, key formulas, and interpretation of results
 stories: [STORY-SL4]
 tasks: [TASK-SL1,TASK-SL2,TASK-SL020]
+code_paths:
+  - notebooks/4a_svm_theory.ipynb
+  - notebooks/4b_support_vector_machines_practical.ipynb
 ---
 
 # FEAT-SL1: Lesson 4 — Support Vector Machines
