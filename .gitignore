@@ -100,6 +100,13 @@ runs/
 ehthumbs.db
 Thumbs.db
 
+# Notebook verification reports (scripts/verify_notebook.py, TASK-SL027) —
+# the running scoreboard is committed, per-notebook JSON reports are not.
+reports/*
+!reports/verify/
+reports/verify/*
+!reports/verify/summary.md
+
 # Claude Code session and plugin artifacts
 .claude/memory/
 .claude/consciousness-loop.*.md
