@@ -30,6 +30,6 @@ complete and consistent when both features close.
 
 ## Acceptance Criteria
 
-- [ ] 0b exists and passes the practical verifier
-- [ ] Regularisation mathematics stated and demonstrated on real data
-- [ ] From-scratch cross-check against 0a to numerical precision
+- [ ] **AC-1** — 0b exists and passes the practical verifier
+- [ ] **AC-2** — Regularisation mathematics stated and demonstrated on real data
+- [ ] **AC-3** — From-scratch cross-check against 0a to numerical precision

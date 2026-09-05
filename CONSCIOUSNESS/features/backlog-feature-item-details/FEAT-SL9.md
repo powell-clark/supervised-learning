@@ -28,7 +28,7 @@ passes the whole corpus, not when the edits land.
 
 ## Acceptance Criteria
 
-- [ ] Theory rewrites: 0a (Opus), 3a (Opus), 5a LaTeX conversion (Opus)
-- [ ] Practical uplifts in three bounded sessions: lessons 1-3, lessons 5-8, lesson 9 (Sonnet)
-- [ ] Execute-all sweep with stored outputs (Sonnet) after every content task lands
-- [ ] FEAT-SL2 freshness stamped and agent-approved
+- [ ] **AC-1** — Theory rewrites: 0a (Opus), 3a (Opus), 5a LaTeX conversion (Opus)
+- [ ] **AC-2** — Practical uplifts in three bounded sessions: lessons 1-3, lessons 5-8, lesson 9 (Sonnet)
+- [ ] **AC-3** — Execute-all sweep with stored outputs (Sonnet) after every content task lands
+- [ ] **AC-4** — FEAT-SL2 freshness stamped and agent-approved

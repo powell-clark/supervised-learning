@@ -32,10 +32,10 @@ the execution spine.
 
 ## Acceptance Criteria
 
-- [ ] Environment: `.venv` rebuilt (the checked-in one points at pyenv 3.10.16, which is not installed); `.python-version` updated to the interpreter actually used; `transformers` and `datasets` added for Lesson 9f
-- [ ] Verifier: thresholds encode the roadmap bar exactly (theory 100+ LaTeX spans, practical 20+, zero emojis, zero marketing words, zero error outputs, references section present); `--all` mode; `--record-feature FEAT-x` calls `record-feature-verification-cli`
-- [ ] Orchestrator: model, effort and budget read from each task card's `## Dispatch` block; reviewer session uses the other model; logs to `reports/run/`; `--dry-run` prints the plan without dispatching
-- [ ] README and corpus report generated from live notebook metadata, not hand-written
+- [ ] **AC-1** — Environment: `.venv` rebuilt (the checked-in one points at pyenv 3.10.16, which is not installed); `.python-version` updated to the interpreter actually used; `transformers` and `datasets` added for Lesson 9f
+- [ ] **AC-2** — Verifier: thresholds encode the roadmap bar exactly (theory 100+ LaTeX spans, practical 20+, zero emojis, zero marketing words, zero error outputs, references section present); `--all` mode; `--record-feature FEAT-x` calls `record-feature-verification-cli`
+- [ ] **AC-3** — Orchestrator: model, effort and budget read from each task card's `## Dispatch` block; reviewer session uses the other model; logs to `reports/run/`; `--dry-run` prints the plan without dispatching
+- [ ] **AC-4** — README and corpus report generated from live notebook metadata, not hand-written
 
 ## Notes
 
