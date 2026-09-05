@@ -9,16 +9,25 @@ seaborn==0.13.2
 # Machine Learning
 scikit-learn==1.5.2
 category-encoders==2.6.4
-xgboost==1.7.6
+# xgboost was pinned to 1.7.6, which predates Python 3.12 and ships no cp312
+# wheel — pip falls back to a source build that does not complete. Loosened to
+# the 2.x line, the closest series with wheels for the interpreter this repo
+# now targets (TASK-SL026).
+xgboost>=2.0.3,<3.0
 lightgbm>=4.0.0
 optuna>=3.5.0
 joblib==1.4.2
 tqdm==4.67.1
 imbalanced-learn>=0.11.0  # For SMOTE and imbalanced data (X4)
 
-# Deep Learning (Lesson 3b)
+# Deep Learning (Lessons 3b, 9b, 9d, 9f)
 torch>=2.0.0
 torchvision>=0.15.0
+
+# Transformers (Lesson 9f - TASK-SL16)
+transformers>=4.40.0
+datasets>=2.19.0
+sentencepiece>=0.2.0
 
 # Jupyter and IPython related dependencies
 ipython==8.30.0  # For interactive Python sessions
@@ -26,3 +35,9 @@ ipykernel==6.29.5  # To run the Python kernel in Jupyter
 ipympl==0.9.4  # For interactive Matplotlib plots in Jupyter
 ipywidgets==8.1.5  # For interactive widgets in Jupyter
 jupyterlab==4.3.2  # Jupyter Lab, if you're using it (alternative: 'jupyter' for classic notebooks)
+
+# Notebook execution and verification (scripts/verify_notebook.py, TASK-SL027)
+nbconvert>=7.16.0
+nbclient>=0.10.0
+nbformat>=5.10.0
+pytest>=8.0.0
