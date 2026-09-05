@@ -153,7 +153,7 @@
 **Benchmarks:**
 - 1a_logistic_regression_theory: 194 math symbols, 7 implementations, 133KB
 - 2a_decision_trees_theory: 130 math symbols, 13 implementations, 136KB
-- 3a_neural_networks_theory: 120 math symbols, 5 implementations, 55KB
+- 3a_neural_networks_theory: 122 LaTeX spans (verify_notebook.py, TASK-SL032 (Uplift Lesson 3a neural networks theory to the curriculum bar)), 1 from-scratch implementation with numerical gradient checking, 73KB
 
 ---
 
