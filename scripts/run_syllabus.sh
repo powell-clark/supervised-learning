@@ -506,6 +506,7 @@ fi
 
 declare -A ATTEMPTS
 declare -A FAILED
+declare -a TABLE_ROWS=()
 COMPLETED=0
 FAILED_COUNT=0
 
@@ -534,8 +535,10 @@ while true; do
     fi
   fi
 
+  last_cost=$(jq -r '.total_cost_usd // "n/a"' "$RUN_DIR/${id}.${attempt}.json" 2>/dev/null)
   if [ "$ok" -eq 1 ]; then
     COMPLETED=$((COMPLETED + 1))
+    TABLE_ROWS+=("$id|done|${last_cost:-n/a}")
     log "$id: DONE"
     doc=$(card_doc_path "$id" 2>/dev/null)
     feat_ids=$(awk -F'|' -v id="$id" 'NR>1 && $1==id {print $6}' "$REPO_ROOT/CONSCIOUSNESS/tasks/TASK-DONE-INDEX.md")
@@ -551,6 +554,7 @@ while true; do
     done
   else
     FAILED_COUNT=$((FAILED_COUNT + 1))
+    TABLE_ROWS+=("$id|failed|${last_cost:-n/a}")
     log "$id: FAILED after 2 attempts — noting on card and continuing"
     doc=$(card_doc_path "$id" 2>/dev/null)
     if [ -n "$doc" ]; then
@@ -574,8 +578,13 @@ done
 {
   echo ""
   echo "=== final table ==="
-  printf "%-10s %-8s\n" "task" "status"
-} >> "$RUN_LOG"
+  printf "%-12s %-8s %s\n" "task" "status" "cost_usd"
+  for row in "${TABLE_ROWS[@]:-}"; do
+    [ -z "$row" ] && continue
+    IFS='|' read -r rid rstatus rcost <<< "$row"
+    printf "%-12s %-8s %s\n" "$rid" "$rstatus" "$rcost"
+  done
+} | tee -a "$RUN_LOG"
 
 log "run end: completed=$COMPLETED failed=$FAILED_COUNT"
 
