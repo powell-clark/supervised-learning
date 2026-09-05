@@ -1,6 +1,6 @@
 ---
 id: FEAT-SL6
-status: backlog
+status: in_progress
 priority: p2
 kano: performance
 title: Lesson 9 — Deep Learning theory and practice
@@ -48,7 +48,7 @@ mathematical and implementation perspectives.
 - [x] Long Short-Term Memory (LSTM) gate derivations and intuition — full input/forget/output gate equations derived, "constant error carousel" explained
 - [x] Gated Recurrent Unit (GRU) as LSTM simplification — full equations derived; parameter-count check confirms GRU uses exactly 75.0% of LSTM's parameters at matching D,H
 - [x] Exploding gradient problem and gradient clipping solution — spectral-radius>1 case measured, clip-by-norm implemented and demonstrated
-- [ ] Bidirectional RNNs explained
+- [x] Bidirectional RNNs explained — TASK-SL036 (2026-09-05): 9d derives forward/backward hidden states $\overrightarrow{h}_t, \overleftarrow{h}_t$ and their concatenation, plus the causality argument for why forecasting cannot use them (the backward pass needs the very future values being predicted), with a code cell demonstrating the concatenated output-width doubling
 
 ### Transformers (TASK-SL15)
 - [ ] Scaled dot-product attention derivation (query, key, value)
@@ -70,8 +70,8 @@ mathematical and implementation perspectives.
 
 ### RNN Practical (TASK-SL14)
 - [x] Time series forecasting (e.g., stock prices, temperature) — Box & Jenkins airline passengers (1949-1960), one-month-ahead and 6-month-ahead encoder-decoder forecasts
-- [ ] Text sequence modeling (character or word level)
-- [ ] LSTM vs GRU performance comparison
+- [x] Text sequence modeling (character or word level) — TASK-SL036 (2026-09-05): a one-layer character-level LSTM trained on a repeated short public-domain nursery rhyme (Jane Taylor, "The Star", 1806), sampled output shown (learned real word/phrase fragments: "twinkle little star ih world so high like a diamond...")
+- [x] LSTM vs GRU performance comparison — TASK-SL036 (2026-09-05): PyTorch's built-in `nn.LSTM`/`nn.GRU` trained on the same one-step-ahead forecasting task at matched hidden size, confirming 9c's derived exact 25% parameter reduction empirically (1216 vs 912 params) plus wall-clock training time and final MSE for both
 - [x] Sequence length impact on training and prediction — window length (6/12/24), hidden size (8/32) and learning rate (0.005/0.02) all swept with trained results
 - [x] NumPy LSTM implementation — reused 9c's gradient-checked `LSTMCell`, trained with its own BPTT (test MAE=68.35, RMSE=78.85)
 - [x] PyTorch sequence model comparison — weight-copied NumPy/PyTorch equivalence check, max abs difference 2.8e-17 on identical input
@@ -114,13 +114,22 @@ theory/practical) pending; feature stays in_progress.
 TASK-SL13/TASK-SL14 (RNN theory and practical, verified and ticked
 2026-09-05, TASK-SL029): three criteria — Bidirectional RNNs explained, Text
 sequence modeling (character or word level), and LSTM vs GRU performance
-comparison — are left unticked because notebooks/9c_rnn_theory.ipynb and
-notebooks/9d_rnn_practical.ipynb as shipped do not cover them (9c covers
+comparison — were left unticked because notebooks/9c_rnn_theory.ipynb and
+notebooks/9d_rnn_practical.ipynb as shipped did not cover them (9c covers
 vanilla RNN/LSTM/GRU derivations and gradient behaviour but not
-bidirectionality; 9d compares RNN vs LSTM on numeric time series only, no
-text and no LSTM-vs-GRU run). TASK-SL036 (Uplift practicals 9b and 9d to
-the practical bar) already carries all three as its own acceptance
-criteria, so nothing here is silently dropped — see that card.
+bidirectionality; 9d compared RNN vs LSTM on numeric time series only, no
+text and no LSTM-vs-GRU run). All three are now shipped in
+notebooks/9d_rnn_practical.ipynb by TASK-SL036 (2026-09-05, Uplift practicals
+9b and 9d to the practical bar), verified executing end-to-end with
+verify_notebook.py --execute (46 latex spans, 0 emoji, 0 error outputs); ticked
+above with evidence.
+
+TASK-SL036 (2026-09-05) also uplifted notebooks/9b_cnn_practical.ipynb's
+transfer-learning mathematics to the precise "$\partial L/\partial W_{\text{frozen}}$
+is never computed" claim and added the softmax cross-entropy objective,
+verified executing end-to-end (21 latex spans, 0 emoji, 0 error outputs,
+required --max-mem-mb 8192 for the ResNet-18 fine-tuning loop's peak
+memory).
 
 TASK-SL15/TASK-SL16 (Transformer theory and practical) remain pending;
 `code_paths` above forward-references their intended filenames
