@@ -28,3 +28,4 @@ TASK-SL033|Convert Lesson 5a KNN theory mathematics to LaTeX and re-verify FEAT-
 TASK-SL034|Uplift practicals 1b, 2b, 2c, 3b: purge emojis, add mathematical explanations|STORY-SL12|DIRECT-SL1|FEAT-SL9|done-task-item-details/TASK-SL034.md|24h|5
 TASK-SL035|Uplift practicals 5b, 6b, 7b, 8b to the practical bar|STORY-SL12|DIRECT-SL1|FEAT-SL9,FEAT-SL2|done-task-item-details/TASK-SL035.md|24h|5
 TASK-SL036|Uplift practicals 9b and 9d to the practical bar|STORY-SL12|DIRECT-SL1|FEAT-SL9|done-task-item-details/TASK-SL036.md|12h|3
+TASK-SL022|Add ensemble combination strategies (voting, averaging, stacking) to Lesson 7|||FEAT-SL4|done-task-item-details/TASK-SL022.md|6h|1
