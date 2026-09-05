@@ -1,1 +1,2 @@
 id|status|priority|title|story_ids|directive_id|feature_ids|doc|blocked_by|blocks|assignee|parent_task_id|sequence|expected_duration|story_points
+TASK-SL037|in_progress|p2|Execute every notebook end-to-end and store outputs|STORY-SL12|DIRECT-SL1|FEAT-SL9|active-task-item-details/TASK-SL037.md|TASK-SL030,TASK-SL031,TASK-SL032,TASK-SL033,TASK-SL034,TASK-SL035,TASK-SL036,TASK-SL15,TASK-SL16,TASK-SL022||||aF9FT|16h|3
