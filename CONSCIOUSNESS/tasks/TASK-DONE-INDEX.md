@@ -30,3 +30,4 @@ TASK-SL035|Uplift practicals 5b, 6b, 7b, 8b to the practical bar|STORY-SL12|DIRE
 TASK-SL036|Uplift practicals 9b and 9d to the practical bar|STORY-SL12|DIRECT-SL1|FEAT-SL9|done-task-item-details/TASK-SL036.md|12h|3
 TASK-SL022|Add ensemble combination strategies (voting, averaging, stacking) to Lesson 7|||FEAT-SL4|done-task-item-details/TASK-SL022.md|6h|1
 TASK-SL15|Lesson 9c: Transformer theory — scaled dot-product attention, multi-head attention, positional encoding, self/cross-attention|STORY-SL9|DIRECT-SL1|FEAT-SL6|done-task-item-details/TASK-SL15.md|16|
+TASK-SL16|Lesson 9c: Transformer practical — sequence-to-sequence, pre-trained model mathematics, NumPy attention mechanism|STORY-SL9|DIRECT-SL1|FEAT-SL6|done-task-item-details/TASK-SL16.md|16|
