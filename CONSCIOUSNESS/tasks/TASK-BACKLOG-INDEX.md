@@ -4,7 +4,6 @@ TASK-SL16|p1|Lesson 9c: Transformer practical — sequence-to-sequence, pre-trai
 TASK-SL017|p3|Autonomous loop stalling on task state transitions||||TASK-SL017.md|||||a0||
 TASK-SL018|p3|Autonomous loop stalled on task state: TASK-SL3 remains active despite in_review transition||||TASK-SL018.md|||||a1||
 TASK-SL019|p3|why is consciousness now a scheduled loop||||TASK-SL019.md|||||a2||
-TASK-SL022|p3|Add ensemble combination strategies (voting, averaging, stacking) to Lesson 7|||FEAT-SL4|backlog-task-item-details/TASK-SL022.md|TASK-SL027|||||6h|1
 TASK-SL023|p3|getFeatureKano() only reads FEATURE-ACTIVE-INDEX.md, causing review-gate kano-tier resolution to silently fall back to human gate when a feature's row is removed from active before its verdict is recorded||||TASK-SL023.md|||||a3||
 TASK-SL037|p2|Execute every notebook end-to-end and store outputs|STORY-SL12|DIRECT-SL1|FEAT-SL9|backlog-task-item-details/TASK-SL037.md|TASK-SL030,TASK-SL031,TASK-SL032,TASK-SL033,TASK-SL034,TASK-SL035,TASK-SL036,TASK-SL15,TASK-SL16,TASK-SL022||||aF9FT|16h|3
 TASK-SL038|p3|Regenerate README as the corpus index|STORY-SL10|DIRECT-SL1|FEAT-SL7|backlog-task-item-details/TASK-SL038.md|TASK-SL037||||aGIet|8h|2
