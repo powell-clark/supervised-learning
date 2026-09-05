@@ -7,3 +7,4 @@ TASK-SL038|p3|Regenerate README as the corpus index|STORY-SL10|DIRECT-SL1|FEAT-S
 TASK-SL039|p3|Write corpus completion report and stamp feature freshness|STORY-SL10|DIRECT-SL1|FEAT-SL7|backlog-task-item-details/TASK-SL039.md|TASK-SL038,TASK-SL029||||aHw6d|16h|3
 TASK-SL040|p3|Fix 1b evaluator using last grid-search model, not the best one|STORY-SL12|DIRECT-SL1|FEAT-SL9|TASK-SL040.md|||||aIlwa||
 TASK-SL041|p4|Correct STORY-SL12/TASK-SL034 assumption that ATLAS uses classification metrics|STORY-SL12|DIRECT-SL1|FEAT-SL9|TASK-SL041.md|||||aJm9Y||
+TASK-SL042|p3|Autonomous loop stalls on task state transitions||||TASK-SL042.md|||||aKXNv||
