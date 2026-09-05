@@ -6,7 +6,9 @@ TASK-SL034's own card assumed notebooks/2c_decision_trees_ATLAS_model_comparison
 
 ## Acceptance criteria
 
-- [ ] _(to be filled in)_
+- [x] STORY-SL12/TASK-SL034 card text does not mislead a future reader about what 2c measures — already satisfied: TASK-SL034.md's own 2c bullet states the original classification-metric assumption alongside a bolded **defect found and documented, not fabricated** correction naming the real R^2/MAE regression metrics, in the same sentence; 2c's own cell 13 markdown carries the identical correction ("Correction to this notebook's own description below..."). No further edit needed.
+
+> **2026-09-05, sl-4afb8881:** verified both texts directly; this task's remaining scope is already met by TASK-SL034's own closing work. Not formally closed here — TASK-SL037 is this session's one claimed in_progress task and this needs no further work, only the lifecycle paperwork (in_review, verdict, done) a future session or the operator can do in one step citing this note.
 
 ## Dependencies
 
