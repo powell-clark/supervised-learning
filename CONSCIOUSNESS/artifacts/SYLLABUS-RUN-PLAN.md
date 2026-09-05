@@ -83,21 +83,34 @@ nothing.
 
 ## Host protection
 
-Measured on this host, 2026-09-05: 16 cores, 31 GB RAM with ~6 GB available, disk
-85% full, 15-minute load average 10.4. The run is capable of taking the machine
-down if it executes deep-learning notebooks without limits, so three guards are
-load-bearing rather than advisory:
+Measured on this host, 2026-09-05, and the measurement matters more than the
+nominal specification: 16 cores and 31 GB RAM, but `MemAvailable` fluctuating
+between **4.0 and 6.4 GB**, because the operator keeps roughly **52 live Claude
+sessions across 32 tmux panes** consuming 12.6 GB of RSS between them. The
+machine's usable headroom is ~4 GB, not 25 GB. Disk was 85% full with 64 GB free
+and was cleared to 83% / 71 GB by dropping a 12.9 GB `uv` package cache (pure
+downloaded wheels, refetched on demand); `~/.cache/voice-to-text/models` 4.6 GB
+and `~/.cache/huggingface` 5.2 GB were deliberately left alone as live tooling.
+
+Three guards, all sized to the ~4 GB floor rather than to total RAM:
 
 - **Sequential only.** One dispatched session at a time; no fan-out, no
   backgrounded task sessions. Per-task wall clock capped at 90 minutes.
 - **Memory and disk precheck.** Before dispatching and before every notebook
   execution: `MemAvailable` ≥ 3 GB and ≥ 10 GB free disk, otherwise wait and
-  re-check, aborting after ten refusals. The kernel runs under an address-space
-  rlimit so a runaway allocation raises `MemoryError` instead of inviting the OOM
-  killer.
+  re-check, aborting after ten refusals.
+- **Kernel address-space limit of 2 GB** — deliberately *below* the observed
+  memory floor, so a runaway allocation raises `MemoryError` inside the notebook
+  while the machine still has room. An earlier draft of this plan set it to 6 GB,
+  which is larger than the machine's available memory and would therefore have
+  protected nothing; that was corrected before the run started.
 - **Thread caps.** `OMP_NUM_THREADS`, `MKL_NUM_THREADS`, `OPENBLAS_NUM_THREADS`
   and `NUMEXPR_NUM_THREADS` pinned to 4 of the 16 cores in every session and
   every kernel, so torch cannot claim the machine.
+
+If the run exits 4, the memory precheck is doing its job: the host was too busy,
+not the run too greedy. Closing some of the 52 idle sessions is the operator's
+lever, and is not something the run does for them.
 
 The heaviest executions are 9b (CIFAR-10 fetch plus a ResNet-18 fine-tune) and
 9f (a small transformer fine-tune). Both keep the small subsets already in use;
