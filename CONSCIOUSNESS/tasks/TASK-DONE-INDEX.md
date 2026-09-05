@@ -21,3 +21,4 @@ TASK-SL026|Rebuild reproducible verification environment for the curriculum|STOR
 TASK-SL027|Build notebook quality verifier with executable thresholds|STORY-SL10|DIRECT-SL1|FEAT-SL7|done-task-item-details/TASK-SL027.md|16h|3
 TASK-SL028|Build autonomous syllabus run orchestrator with model-aware dispatch|STORY-SL10|DIRECT-SL1|FEAT-SL7|done-task-item-details/TASK-SL028.md|16h|3
 TASK-SL029|Sync feature cards, code_paths and FEAT-SL6 RNN checkboxes|STORY-SL10|DIRECT-SL1|FEAT-SL7|done-task-item-details/TASK-SL029.md|4h|1
+TASK-SL030|Lesson 0b: Linear regression practical — regularised regression, diagnostics, London housing|STORY-SL11|DIRECT-SL1|FEAT-SL8|done-task-item-details/TASK-SL030.md|40h|8
