@@ -11,3 +11,4 @@ TASK-SL036|p2|Uplift practicals 9b and 9d to the practical bar|STORY-SL12|DIRECT
 TASK-SL037|p2|Execute every notebook end-to-end and store outputs|STORY-SL12|DIRECT-SL1|FEAT-SL9|backlog-task-item-details/TASK-SL037.md|TASK-SL030,TASK-SL031,TASK-SL032,TASK-SL033,TASK-SL034,TASK-SL035,TASK-SL036,TASK-SL15,TASK-SL16,TASK-SL022||||aF9FT|16h|3
 TASK-SL038|p3|Regenerate README as the corpus index|STORY-SL10|DIRECT-SL1|FEAT-SL7|backlog-task-item-details/TASK-SL038.md|TASK-SL037||||aGIet|8h|2
 TASK-SL039|p3|Write corpus completion report and stamp feature freshness|STORY-SL10|DIRECT-SL1|FEAT-SL7|backlog-task-item-details/TASK-SL039.md|TASK-SL038,TASK-SL029||||aHw6d|16h|3
+TASK-SL040|p3|Fix 1b evaluator using last grid-search model, not the best one|STORY-SL12|DIRECT-SL1|FEAT-SL9|TASK-SL040.md|||||aIlwa||
