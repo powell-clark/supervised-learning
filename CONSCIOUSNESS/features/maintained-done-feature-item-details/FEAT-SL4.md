@@ -37,6 +37,7 @@ are among the most effective techniques in practical machine learning.
 - [x] **AC-8** — LightGBM vs XGBoost trade-offs and when to use each
 - [x] **AC-9** — Hyperparameter tuning via grid search and Bayesian optimization
 - [x] **AC-10** — Both notebooks run top-to-bottom in Google Colab with no local setup
+- [x] **AC-11** — Ensemble combination strategies (voting, averaging, stacking) — TASK-SL022 (2026-09-05): hard/soft voting and stacking's out-of-fold meta-learner procedure derived, demonstrated with `VotingClassifier`/`StackingClassifier` on 7b's own breast cancer split against the existing bagging/boosting base learners
 
 ## Notes
 TASK-SL7 (theory, verified 2026-07-13): notebooks/7a_ensemble_methods_theory.ipynb
@@ -61,6 +62,14 @@ already-substantial pair of notebooks. (2026-09-05, TASK-SL029: TASK-SL022
 was already linked on this card's FEATURE-MAINTAINED-DONE-INDEX.md row but
 missing from this card's own `tasks:` frontmatter — added above so the two
 agree.)
+
+TASK-SL022 (2026-09-05) closed this gap: notebooks/7b_ensemble_methods_practical.ipynb
+now covers hard/soft voting's aggregation formula and stacking's
+out-of-fold leakage-avoidance procedure, demonstrated empirically with
+`VotingClassifier` and `StackingClassifier` against the notebook's own
+bagging/Random Forest/XGBoost/LightGBM base learners on the identical
+breast cancer split -- verified via verify_notebook.py --execute (35
+latex spans, 0 emoji, 0 error outputs, executed).
 
 An independent agent review (blind to this session's summary) re-executed the
 from-scratch AdaBoost standalone, confirmed the 97.4% accuracy claim exactly,
