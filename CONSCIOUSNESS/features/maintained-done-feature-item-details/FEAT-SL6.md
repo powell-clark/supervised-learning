@@ -1,6 +1,6 @@
 ---
 id: FEAT-SL6
-status: in_progress
+status: maintained
 priority: p2
 kano: performance
 title: Lesson 9 — Deep Learning theory and practice
