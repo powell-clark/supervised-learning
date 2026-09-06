@@ -9,3 +9,4 @@ TASK-SL040|p3|Fix 1b evaluator using last grid-search model, not the best one|ST
 TASK-SL041|p4|Correct STORY-SL12/TASK-SL034 assumption that ATLAS uses classification metrics|STORY-SL12|DIRECT-SL1|FEAT-SL9|TASK-SL041.md|||||aJm9Y||
 TASK-SL042|p3|Autonomous loop stalls on task state transitions||||TASK-SL042.md|||||aKXNv||
 TASK-SL043|p4|Sync .gitignore stream-exhaust patterns with eglpk601 distribution||||TASK-SL043.md|||||aLeiC||
+TASK-SL044|p2|Audit lessons 0, 3-9 against the 1a/1b/2a/2b/2c style bar|STORY-SL13|DIRECT-SL2||TASK-SL044.md|||||aMIEk||
