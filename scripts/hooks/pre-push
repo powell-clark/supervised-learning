@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+# Git pre-push hook: the personal-data gate first, then the same checks CI runs.
+#
+# Install via:   bash scripts/hooks/install.sh
+#
+# The gate (pii-gate.sh, installed beside this hook) refuses a push whose commits
+# carry this machine's identifiers (home path, hostname, private repo names), a
+# value from the local replacement list, or a built executable. Nothing it
+# matches is ever printed. A missing gate refuses the push.
+
+set -e
+
+push_info=$(cat)
+hook_dir=$(cd "$(dirname "$0")" && pwd)
+cd "$(git rev-parse --show-toplevel)"
+if [ ! -f "$hook_dir/pii-gate.sh" ]; then
+    echo "[pre-push] REFUSED: pii-gate.sh is missing beside this hook; run: bash scripts/hooks/install.sh"
+    exit 1
+fi
+for f in pre-push pii-gate.sh; do
+    if [ -f "scripts/hooks/$f" ] && ! cmp -s "scripts/hooks/$f" "$hook_dir/$f"; then
+        echo "[pre-push] WARN: the installed $f differs from scripts/hooks/$f; run: bash scripts/hooks/install.sh"
+    fi
+done
+printf '%s\n' "$push_info" | bash "$hook_dir/pii-gate.sh" "$@"
+
+echo "[pre-push] agent state is not tracked"
+bash scripts/ci/check-tracked-paths.sh
+
+echo "[pre-push] notebooks parse and carry no personal paths"
+python3 scripts/ci/check-notebooks.py
+
+echo "[pre-push] all checks passed — pushing"

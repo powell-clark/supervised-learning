@@ -1,0 +1,25 @@
+name: Notebooks
+
+# Every notebook is valid nbformat-4 JSON, no tracked file carries a real user's
+# home-directory path, and no AI-session transcript is tracked. The job carries
+# no values and needs no secrets.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  notebooks:
+    name: Notebooks parse and carry no personal paths
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check notebooks and tracked files
+        run: python3 scripts/ci/check-notebooks.py

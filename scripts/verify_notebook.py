@@ -426,20 +426,6 @@ def resolve_plugin_root() -> str:
     root = os.environ.get("CLAUDE_PLUGIN_ROOT", "")
     if root and Path(root, "dist/packages/core/review/record-feature-verification-cli.js").is_file():
         return root
-    cache = Path.home() / ".claude/plugins/cache/[redacted-fed]"
-    resolvers = sorted(cache.glob("*/dist/packages/core/attention/resolve-plugin-cli.js"))
-    if resolvers:
-        try:
-            out = subprocess.run(
-                ["node", str(resolvers[-1])], capture_output=True, text=True, timeout=30
-            ).stdout.strip()
-            if out and Path(out, "dist/packages/core/review/record-feature-verification-cli.js").is_file():
-                return out
-        except Exception:  # noqa: BLE001
-            pass
-    candidates = sorted(cache.glob("*/dist/packages/core/review/record-feature-verification-cli.js"))
-    if candidates:
-        return str(candidates[-1].parents[4])
     return ""
 
 

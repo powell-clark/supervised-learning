@@ -87,10 +87,6 @@ runs/
 # Serialized models produced by running notebooks
 *.pkl
 
-# Per-session framing snapshots (managed by consciousness plugin)
-.claude/framing-version-snapshot.*.json
-.claude/naming-precision-reminder.*.md
-
 # OS generated files
 .DS_Store
 .DS_Store?
@@ -100,70 +96,19 @@ runs/
 ehthumbs.db
 Thumbs.db
 
-# Notebook verification reports (scripts/verify_notebook.py, TASK-SL027) —
-# the running scoreboard is committed, per-notebook JSON reports are not.
+# Notebook verification reports (scripts/verify_notebook.py): the running
+# scoreboard is committed, per-notebook JSON reports are not.
 reports/*
 !reports/verify/
 reports/verify/*
 !reports/verify/summary.md
 
-# Claude Code session and plugin artifacts
-.claude/memory/
-.claude/consciousness-loop.*.md
-.claude/framing-*.txt
-.claude/turn-start-ts.*.txt
-.claude/universe-*.txt
-.claude/universe-snapshot.json
-.claude/settings.local.json
-.claude/settings.local.json.bak.*
-.claude/autonomous-state.*.json
-.claude/loop-exit.*.json
-.claude/loop-terminated.*.json
-.claude/continuation-brief.md
-
-# Consciousness session runtime files
-CONSCIOUSNESS/.TODO.lock
-CONSCIOUSNESS/AGENT-TIME-LOG.md
-CONSCIOUSNESS/HUMAN-TIME-LOG.md
-CONSCIOUSNESS/TODO.md
-CONSCIOUSNESS/TODO.version
-CONSCIOUSNESS/autonomous-state.*.json
-CONSCIOUSNESS/active-sessions.json
-
-# stream runtime exhaust (data--stream_exhaust_untracked; distributed by [redacted-fed] TASK-EGLPK601, 2026-08-05)
-CONSCIOUSNESS/stream/autonomy.jsonl
-CONSCIOUSNESS/stream/bus.jsonl
-CONSCIOUSNESS/stream/character.yaml
-CONSCIOUSNESS/stream/errors.jsonl
-CONSCIOUSNESS/stream/evaluation-sync-queue.jsonl
-CONSCIOUSNESS/stream/header-footer-checks.jsonl
-CONSCIOUSNESS/stream/heal-log.jsonl
-CONSCIOUSNESS/stream/migrations-log.jsonl
-CONSCIOUSNESS/stream/naming-precision-checks.jsonl
-CONSCIOUSNESS/stream/preferences.yaml
-CONSCIOUSNESS/stream/session-health.jsonl
-CONSCIOUSNESS/stream/turns.jsonl
-CONSCIOUSNESS/stream/model-attribution.jsonl
-
-# local additions pending eglpk601 sync (TASK-SL043): active-sessions.json moved
-# under stream/ but the distributed pattern above still names the old root path;
-# these are further stream exhaust files the distributed list has not caught up to.
-CONSCIOUSNESS/stream/active-sessions.json
-CONSCIOUSNESS/stream/sessions.jsonl
-CONSCIOUSNESS/stream/sessions-history.json
-CONSCIOUSNESS/stream/cursors/
-CONSCIOUSNESS/stream/evaluations/
-CONSCIOUSNESS/stream/daily.jsonl
-CONSCIOUSNESS/stream/command-usage.jsonl
-CONSCIOUSNESS/stream/hooks.jsonl
-CONSCIOUSNESS/stream/framing-checks.jsonl
-CONSCIOUSNESS/stream/protect-events.jsonl
-CONSCIOUSNESS/stream/subagent-spawns.jsonl
-CONSCIOUSNESS/pgps-snapshots/
-
 # Generated monitoring-notebook runtime output (not curriculum content)
 monitoring/
 notebooks/temp_model.json
 
-# Claude Code session transcripts carry signed thinking blocks — never commit (arXiv:2608.09867)
+# Agent working state stays local and is never tracked, at any depth.
+# CI (scripts/ci/check-tracked-paths.sh) refuses a push that tracks any of these.
+CONSCIOUSNESS/
+.claude/
 chats/
